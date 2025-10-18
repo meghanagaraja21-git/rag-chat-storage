@@ -7,6 +7,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -71,5 +72,17 @@ public class ChatMessageController {
         Page<ChatMessage> messages = messageService.getMessages(session, PageRequest.of(page, size));
 
         return ResponseEntity.ok(messages);
+    }
+    
+    @RateLimited(name = LIMITER_NAME)
+    @DeleteMapping("/{messageId}")
+    public ResponseEntity<Void> deleteMessage(
+            @PathVariable UUID sessionId,
+            @PathVariable UUID messageId) {
+
+        ChatSession session = sessionService.getSession(sessionId);
+        messageService.deleteMessage(session, messageId);
+
+        return ResponseEntity.noContent().build();
     }
 }

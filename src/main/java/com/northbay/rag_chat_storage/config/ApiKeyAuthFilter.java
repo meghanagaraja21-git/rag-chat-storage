@@ -1,6 +1,5 @@
 package com.northbay.rag_chat_storage.config;
 
-
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
@@ -31,7 +30,7 @@ public class ApiKeyAuthFilter extends OncePerRequestFilter {
     protected void initFilterBean() throws ServletException {
         super.initFilterBean();
         if (!StringUtils.hasText(apiKeysProperty)) {
-            throw new ServletException("No API keys defined in 'api.keys'");
+            throw new ServletException("No API keys defined in 'api.key'");
         }
         validApiKeys = Arrays.asList(apiKeysProperty.split(","));
     }
@@ -40,6 +39,14 @@ public class ApiKeyAuthFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request,
                                     HttpServletResponse response,
                                     FilterChain filterChain) throws ServletException, IOException {
+
+        String path = request.getRequestURI();
+
+        // Skip API key validation for OpenAPI / Swagger endpoints
+        if (path.startsWith("/v3/api-docs") || path.startsWith("/swagger-ui") || path.startsWith("/swagger-ui.html")) {
+            filterChain.doFilter(request, response);
+            return;
+        }
 
         String requestApiKey = request.getHeader("X-API-KEY");
         System.out.println("Incoming API Key: " + requestApiKey);

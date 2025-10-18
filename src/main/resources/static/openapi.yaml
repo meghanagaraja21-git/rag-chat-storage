@@ -1,0 +1,300 @@
+openapi: 3.0.3
+info:
+  title: Rag Chat Storage API
+  version: 1.0.0
+  description: >
+    REST APIs for managing chat sessions and messages.
+    Supports creating, fetching, renaming, favoriting, deleting chat sessions,
+    and adding, fetching, and deleting chat messages.
+servers:
+  - url: http://localhost:8080/api/v1
+    description: Local development server
+
+paths:
+  /sessions:
+    post:
+      summary: Create a new chat session
+      operationId: createChatSession
+      tags:
+        - Chat Sessions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - userId
+                - name
+              properties:
+                userId:
+                  type: string
+                name:
+                  type: string
+      responses:
+        "201":
+          description: Chat session created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatSession'
+    get:
+      summary: Get all chat sessions (optionally by userId)
+      operationId: getAllChatSessions
+      tags:
+        - Chat Sessions
+      parameters:
+        - name: userId
+          in: query
+          description: Filter sessions by userId
+          required: false
+          schema:
+            type: string
+      responses:
+        "200":
+          description: List of chat sessions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ChatSession'
+
+  /sessions/{id}:
+    get:
+      summary: Get a specific chat session by ID
+      operationId: getChatSession
+      tags:
+        - Chat Sessions
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "200":
+          description: Chat session details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatSession'
+        "404":
+          description: Session not found
+    put:
+      summary: Rename a chat session
+      operationId: renameChatSession
+      tags:
+        - Chat Sessions
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - name
+              properties:
+                name:
+                  type: string
+      responses:
+        "200":
+          description: Chat session renamed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatSession'
+    delete:
+      summary: Delete a chat session
+      operationId: deleteChatSession
+      tags:
+        - Chat Sessions
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "204":
+          description: Chat session deleted successfully
+
+  /sessions/{id}/favorite:
+    put:
+      summary: Mark/unmark chat session as favorite
+      operationId: favoriteChatSession
+      tags:
+        - Chat Sessions
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - favorite
+              properties:
+                favorite:
+                  type: boolean
+      responses:
+        "200":
+          description: Chat session favorite status updated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatSession'
+
+  /sessions/{sessionId}/messages:
+    post:
+      summary: Add a message to a chat session
+      operationId: addChatMessage
+      tags:
+        - Chat Messages
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - sender
+                - content
+              properties:
+                sender:
+                  type: string
+                  description: "user or AI"
+                content:
+                  type: string
+                context:
+                  type: string
+      responses:
+        "201":
+          description: Message added
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatMessage'
+    get:
+      summary: Get all messages of a chat session (paginated)
+      operationId: getChatMessages
+      tags:
+        - Chat Messages
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: page
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: size
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 10
+      responses:
+        "200":
+          description: Paginated messages
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ChatMessage'
+
+  /sessions/{sessionId}/messages/{messageId}:
+    delete:
+      summary: Delete a specific chat message
+      operationId: deleteChatMessage
+      tags:
+        - Chat Messages
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: messageId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "204":
+          description: Message deleted successfully
+        "404":
+          description: Session or message not found
+
+components:
+  schemas:
+    ChatSession:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        userId:
+          type: string
+        name:
+          type: string
+        favorite:
+          type: boolean
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+        messages:
+          type: array
+          items:
+            $ref: '#/components/schemas/ChatMessage'
+
+    ChatMessage:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        session:
+          $ref: '#/components/schemas/ChatSession'
+        sender:
+          type: string
+        content:
+          type: string
+        context:
+          type: string
+        createdAt:
+          type: string
+          format: date-time

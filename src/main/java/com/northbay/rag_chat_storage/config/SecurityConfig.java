@@ -18,6 +18,13 @@ public class SecurityConfig {
         http
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
+            		 .requestMatchers(
+                             "/v3/api-docs/**","/v3/openapi.yaml",
+                             "/swagger-ui/**",
+                             "/swagger-ui.html",
+                             "/actuator/**"
+                     ).permitAll()
+                     
                 .anyRequest().authenticated()
             )
             .addFilterBefore(apiKeyAuthFilter, UsernamePasswordAuthenticationFilter.class);

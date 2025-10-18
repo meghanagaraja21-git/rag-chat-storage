@@ -1,10 +1,13 @@
 package com.northbay.rag_chat_storage.service;
 
+import java.util.UUID;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import com.northbay.rag_chat_storage.exceptions.NotFoundException;
 import com.northbay.rag_chat_storage.models.ChatMessage;
 import com.northbay.rag_chat_storage.models.ChatSession;
 import com.northbay.rag_chat_storage.repository.ChatMessageRepository;
@@ -33,4 +36,11 @@ public class ChatMessageService {
     public Page<ChatMessage> getMessages(ChatSession session, Pageable pageable) {
         return messageRepository.findBySession(session, pageable);
     }
+    
+    public void deleteMessage(ChatSession session, UUID messageId) {
+        ChatMessage message = messageRepository.findByIdAndSession(messageId, session)
+                .orElseThrow(() -> new NotFoundException("Message not found for this session"));
+        messageRepository.delete(message);
+    }
+
 }
