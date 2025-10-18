@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    container_name: rag-postgres
+    environment:
+      POSTGRES_USER: rag_user
+      POSTGRES_PASSWORD: Mena2107@!
+      POSTGRES_DB: rag_chat_storage
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: my-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+
+  app:
+    build: .
+    container_name: rag-chat-storage
+    environment:
+      API_KEY: mysecretapikey
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/rag_chat_storage
+      SPRING_DATASOURCE_USERNAME: rag_user
+      SPRING_DATASOURCE_PASSWORD: Mena2107@!
+    ports:
+      - "8082:8081"
+    depends_on:
+      - postgres
+
+volumes:
+  pgdata:
