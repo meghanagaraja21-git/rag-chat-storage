@@ -4127,3 +4127,957 @@ This generated password is for development use only. Your security configuration
 2025-10-18 20:30:17 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-10-18 20:30:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-10-18 20:30:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:41:29 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-18 20:41:29 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-18 20:41:29 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:41:29 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-18 20:41:29 [RMI TCP Connection(24)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:41:29 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:41:29 [RMI TCP Connection(24)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:41:29 [RMI TCP Connection(24)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:41:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:41:31 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.12 with PID 41229 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:41:31 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:41:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:41:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:41:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-18 20:41:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:41:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-18 20:41:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-18 20:41:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-18 20:41:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 672 ms
+2025-10-18 20:41:32 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-18 20:41:32 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:41:32 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:41:32 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:41:32 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:41:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:41:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3fdbb7ee
+2025-10-18 20:41:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:41:32 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:41:32 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:41:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:41:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:41:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:41:33 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 99c57ce9-8261-4752-acf0-20e6ed6dd91e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:41:33 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:41:33 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:41:33 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:41:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:41:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-18 20:41:33 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.469 seconds (process running for 2.646)
+2025-10-18 20:41:34 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-18 20:41:34 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-18 20:41:34 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 20:41:44 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 20:41:44 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 46f0be2c-3787-4d27-8021-0c7c0f48c4cb] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 20:41:44 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 46f0be2c-3787-4d27-8021-0c7c0f48c4cb] Response: 200 | Time Taken: 10 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 20:41:44 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 20:41:44 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f6726dc9-ae06-4bb4-98c2-8ca53ea4eae9] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 20:41:44 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:41:44 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:41:44 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 1566231c-86f5-4cd1-ae84-b1e38a646e16] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:41:44 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:41:44 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 20:41:44 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:41:44 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6d554537-afc5-4eb5-a383-3d9e588edc14] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:41:44 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 20:41:44 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 040eccd0-11f3-4921-9a86-66f7b1293fb2] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 20:41:44 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:41:44 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f6726dc9-ae06-4bb4-98c2-8ca53ea4eae9] Response: 200 | Time Taken: 3 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 040eccd0-11f3-4921-9a86-66f7b1293fb2] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:41:44 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 715ede66-6217-4ec4-ac59-aa2ba641d854] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:41:44 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 1566231c-86f5-4cd1-ae84-b1e38a646e16] Response: 200 | Time Taken: 4 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6d554537-afc5-4eb5-a383-3d9e588edc14] Response: 200 | Time Taken: 9 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 715ede66-6217-4ec4-ac59-aa2ba641d854] Response: 200 | Time Taken: 8 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+2025-10-18 20:41:44 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-16x16.png
+2025-10-18 20:41:44 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+2025-10-18 20:41:44 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 20:41:44 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 280b236a-e296-446b-a14e-425368dd300b] Incoming Request: GET /swagger-ui/favicon-32x32.png
+2025-10-18 20:41:44 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-16x16.png
+2025-10-18 20:41:44 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 08b4131d-4212-4dec-a7c3-c35748bfa3f1] Incoming Request: GET /swagger-ui/favicon-16x16.png
+2025-10-18 20:41:44 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 20:41:44 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 63711633-b599-4833-a9f2-6061dc653a2b] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 20:41:44 [http-nio-8081-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 280b236a-e296-446b-a14e-425368dd300b] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 08b4131d-4212-4dec-a7c3-c35748bfa3f1] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 63711633-b599-4833-a9f2-6061dc653a2b] Response: 200 | Time Taken: 11 ms
+2025-10-18 20:41:44 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:41:44 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:41:44 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: eee12c1e-00d8-42af-b6ff-b9d4b518ca1f] Incoming Request: GET /v3/api-docs
+2025-10-18 20:41:44 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:41:44 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: eee12c1e-00d8-42af-b6ff-b9d4b518ca1f] Response: 500 | Time Taken: 54 ms
+2025-10-18 20:43:17 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-18 20:43:17 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-18 20:43:17 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:43:17 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-18 20:43:17 [RMI TCP Connection(14)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:43:17 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:43:17 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:43:17 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:43:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:43:19 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.12 with PID 42326 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:43:19 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:43:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:43:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:43:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-18 20:43:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:43:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-18 20:43:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-18 20:43:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-18 20:43:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 719 ms
+2025-10-18 20:43:20 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-18 20:43:20 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:43:20 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:43:20 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:43:20 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:43:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:43:20 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@759b05d1
+2025-10-18 20:43:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:43:20 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:43:20 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:43:20 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:43:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:43:21 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:43:21 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 75d30f94-af78-4b4d-89b7-eff87eccbbd9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:43:21 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:43:21 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:43:21 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:43:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:43:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-18 20:43:21 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.634 seconds (process running for 2.81)
+2025-10-18 20:43:22 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-18 20:43:22 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-18 20:43:22 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 20:43:38 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 20:43:38 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5911ac50-cc25-40b8-8261-09333bfbb714] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 20:43:38 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5911ac50-cc25-40b8-8261-09333bfbb714] Response: 200 | Time Taken: 11 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 20:43:38 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 20:43:38 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c0720886-7c26-40ba-b430-721f072fdbcd] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 20:43:38 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c0720886-7c26-40ba-b430-721f072fdbcd] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 20:43:38 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:43:38 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 20:43:38 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:43:38 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 37d29a16-4bb5-47ac-a1e0-7f2e0725b85e] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 20:43:38 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5c8c7721-e538-43ff-8730-f622c43231d7] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:43:38 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:43:38 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:43:38 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ee9cf605-f865-4212-b603-5c6ff8ef5b25] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:43:38 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 37d29a16-4bb5-47ac-a1e0-7f2e0725b85e] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:43:38 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:43:38 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 32423ed6-8d13-4f89-94e2-0696d9174a61] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:43:38 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ee9cf605-f865-4212-b603-5c6ff8ef5b25] Response: 200 | Time Taken: 4 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5c8c7721-e538-43ff-8730-f622c43231d7] Response: 200 | Time Taken: 8 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 32423ed6-8d13-4f89-94e2-0696d9174a61] Response: 200 | Time Taken: 7 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 20:43:38 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 20:43:38 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 06733d6e-ea56-4db6-bdef-73890d159e38] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 20:43:38 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 06733d6e-ea56-4db6-bdef-73890d159e38] Response: 200 | Time Taken: 9 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:43:38 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:43:38 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a462188b-02ad-458f-b711-6efda94706fb] Incoming Request: GET /v3/api-docs
+2025-10-18 20:43:38 [http-nio-8081-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a462188b-02ad-458f-b711-6efda94706fb] Response: 500 | Time Taken: 53 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 20:43:38 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 20:43:38 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4f98815e-788c-4e3d-b1e6-a0f7d2fe609d] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 20:43:38 [http-nio-8081-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4f98815e-788c-4e3d-b1e6-a0f7d2fe609d] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:43:38 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:43:38 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 20:43:38 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 20:43:38 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:43:38 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 20:43:38 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 20:43:38 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:43:38 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8b4e131a-9107-43d0-964b-c863620b0cee] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 20:43:38 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:43:38 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 055ce51e-36e4-4280-8105-48f5b470b670] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 20:43:38 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6ada8ac8-1341-4bee-9f2d-4ecc87e60848] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:43:38 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d20e2607-1e65-4eb0-8594-cd3e1d885c25] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:43:38 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:43:38 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: dd2d116b-28a3-4a63-a5a4-f82998e82d48] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:43:38 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 055ce51e-36e4-4280-8105-48f5b470b670] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8b4e131a-9107-43d0-964b-c863620b0cee] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: dd2d116b-28a3-4a63-a5a4-f82998e82d48] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d20e2607-1e65-4eb0-8594-cd3e1d885c25] Response: 200 | Time Taken: 3 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6ada8ac8-1341-4bee-9f2d-4ecc87e60848] Response: 200 | Time Taken: 8 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 20:43:38 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 20:43:38 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0bc979e4-7a3f-4acc-951b-be7a7d9e1c4c] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 20:43:38 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0bc979e4-7a3f-4acc-951b-be7a7d9e1c4c] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:43:38 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:43:38 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:43:38 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 86290ce5-d5e2-4986-9227-e5d476ed7963] Incoming Request: GET /v3/api-docs
+2025-10-18 20:43:38 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:38 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 86290ce5-d5e2-4986-9227-e5d476ed7963] Response: 500 | Time Taken: 24 ms
+2025-10-18 20:43:50 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 20:43:50 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 20:43:50 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 9792232d-e8bb-42b7-9538-decdb1a5f0cf] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 20:43:50 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:50 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 9792232d-e8bb-42b7-9538-decdb1a5f0cf] Response: 200 | Time Taken: 3 ms
+2025-10-18 20:43:50 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 20:43:50 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 20:43:50 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 20:43:50 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 44423443-e553-48f9-ab11-2717d3c31bc4] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 20:43:50 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 20:43:50 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 97eeba3d-2766-4787-8d18-a8cbddd9bdf9] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 20:43:50 [http-nio-8081-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:50 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:43:50 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 44423443-e553-48f9-ab11-2717d3c31bc4] Response: 200 | Time Taken: 6 ms
+2025-10-18 20:43:50 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:43:50 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:43:50 [http-nio-8081-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:50 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 97eeba3d-2766-4787-8d18-a8cbddd9bdf9] Response: 200 | Time Taken: 5 ms
+2025-10-18 20:43:50 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:43:50 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 324afacc-1f28-4413-846a-150540a16180] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:43:50 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:43:50 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0f6981dd-b1f1-4d30-96eb-b7dfb92994af] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:43:50 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:43:50 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 067f6a32-0adf-4dee-b2b9-81d7f2a1507e] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:43:50 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:50 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 324afacc-1f28-4413-846a-150540a16180] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:43:50 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:50 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 067f6a32-0adf-4dee-b2b9-81d7f2a1507e] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:43:50 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:50 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0f6981dd-b1f1-4d30-96eb-b7dfb92994af] Response: 200 | Time Taken: 6 ms
+2025-10-18 20:43:50 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 20:43:50 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 20:43:50 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ca3479a1-092a-40a4-9e82-d7c3e19009ef] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 20:43:50 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:50 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ca3479a1-092a-40a4-9e82-d7c3e19009ef] Response: 200 | Time Taken: 3 ms
+2025-10-18 20:43:50 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:43:50 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:43:50 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5c26cdea-88ed-46c5-8dde-6a55b79449e1] Incoming Request: GET /v3/api-docs
+2025-10-18 20:43:50 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:43:50 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5c26cdea-88ed-46c5-8dde-6a55b79449e1] Response: 500 | Time Taken: 20 ms
+2025-10-18 20:43:54 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-18 20:43:54 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-18 20:43:54 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:43:54 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-18 20:43:54 [RMI TCP Connection(13)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:43:54 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:43:54 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:43:54 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:43:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:43:56 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.12 with PID 42662 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:43:56 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:43:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:43:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:43:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-18 20:43:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:43:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-18 20:43:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-18 20:43:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-18 20:43:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 671 ms
+2025-10-18 20:43:57 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-18 20:43:57 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:43:57 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:43:57 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:43:57 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:43:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:43:57 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@630febd7
+2025-10-18 20:43:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:43:57 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:43:57 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:43:58 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:43:58 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:43:58 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:43:58 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3a6048e3-7a56-4b77-8dc5-58cf3032ccde
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:43:58 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:43:58 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:43:58 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:43:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:43:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-18 20:43:59 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.487 seconds (process running for 2.676)
+2025-10-18 20:43:59 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-18 20:43:59 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-18 20:43:59 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-18 20:44:10 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 20:44:10 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 20:44:10 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 70f6c35a-ad31-471f-92a5-249f8c2bdcc0] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 20:44:10 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:44:10 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 70f6c35a-ad31-471f-92a5-249f8c2bdcc0] Response: 200 | Time Taken: 13 ms
+2025-10-18 20:44:10 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 20:44:10 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 20:44:10 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 20:44:10 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a9d00dd4-e98f-4eeb-a517-2413bf9dd0a5] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 20:44:10 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 20:44:10 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0eee888b-9c9a-4efd-b23a-4f94b03330e9] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 20:44:10 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:44:10 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:44:10 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:44:10 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:44:10 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 1999a8af-bec5-4be7-bca0-9bdd503fb5df] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:44:10 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:44:10 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 89f5f7fb-9474-4a52-9fd6-a8f359d3b4c9] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:44:10 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:44:10 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0eee888b-9c9a-4efd-b23a-4f94b03330e9] Response: 200 | Time Taken: 3 ms
+2025-10-18 20:44:10 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:44:10 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a9d00dd4-e98f-4eeb-a517-2413bf9dd0a5] Response: 200 | Time Taken: 3 ms
+2025-10-18 20:44:10 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:44:10 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ab04bdf2-9a4b-459b-9ef7-5396e4cbdc23] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:44:10 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:44:10 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ab04bdf2-9a4b-459b-9ef7-5396e4cbdc23] Response: 200 | Time Taken: 6 ms
+2025-10-18 20:44:10 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:44:10 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 89f5f7fb-9474-4a52-9fd6-a8f359d3b4c9] Response: 200 | Time Taken: 13 ms
+2025-10-18 20:44:10 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:44:10 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 1999a8af-bec5-4be7-bca0-9bdd503fb5df] Response: 200 | Time Taken: 15 ms
+2025-10-18 20:44:10 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 20:44:10 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 20:44:10 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 7edb2f55-56e1-4a69-94dd-f32de703e501] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 20:44:10 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:44:10 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 7edb2f55-56e1-4a69-94dd-f32de703e501] Response: 200 | Time Taken: 10 ms
+2025-10-18 20:44:10 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:44:10 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:44:10 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 1db01087-4863-442b-b506-4c14d1a61a74] Incoming Request: GET /v3/api-docs
+2025-10-18 20:44:10 [http-nio-8081-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:44:10 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 1db01087-4863-442b-b506-4c14d1a61a74] Response: 500 | Time Taken: 62 ms
+2025-10-18 20:46:39 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-18 20:46:39 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-18 20:46:39 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:46:39 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-18 20:46:39 [RMI TCP Connection(14)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:46:40 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:46:40 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:46:40 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:46:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:46:43 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.12 with PID 44399 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:46:43 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:46:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:46:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:46:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-18 20:46:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:46:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-18 20:46:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-18 20:46:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-18 20:46:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 695 ms
+2025-10-18 20:46:44 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-18 20:46:44 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:46:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:46:44 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:46:44 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:46:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:46:44 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22617270
+2025-10-18 20:46:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:46:44 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:46:44 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:46:44 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:46:44 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:46:44 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:46:44 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d01f8cf3-eb9b-4795-a097-eec4b6d690f6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:46:44 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:46:45 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:46:45 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:46:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:46:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-18 20:46:45 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.556 seconds (process running for 2.735)
+2025-10-18 20:46:45 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-18 20:46:45 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-18 20:46:45 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 20:47:04 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 20:47:04 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a3697fc1-3fae-49d7-9b5b-36d9721cd237] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 20:47:04 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a3697fc1-3fae-49d7-9b5b-36d9721cd237] Response: 200 | Time Taken: 13 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 20:47:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 20:47:04 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5a7f2047-bc78-460c-87e2-823bb173d53c] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 20:47:04 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 20:47:04 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 20:47:04 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 97eb746f-65c6-41d7-816e-c286bd4ffb78] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 20:47:04 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:47:04 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:47:04 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6861669d-1072-46be-930b-b4a2ccb6601e] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:47:04 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:47:04 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:47:04 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:47:04 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5a7f2047-bc78-460c-87e2-823bb173d53c] Response: 200 | Time Taken: 3 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 97eb746f-65c6-41d7-816e-c286bd4ffb78] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2f43b7cb-83c4-4a1a-8d33-b2788f690fa5] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:47:04 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:47:04 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5e7e7e8e-76c2-4da3-99da-2fed39c77796] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:47:04 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2f43b7cb-83c4-4a1a-8d33-b2788f690fa5] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6861669d-1072-46be-930b-b4a2ccb6601e] Response: 200 | Time Taken: 6 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5e7e7e8e-76c2-4da3-99da-2fed39c77796] Response: 200 | Time Taken: 5 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 20:47:04 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 20:47:04 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 46deea60-5b11-47de-bce5-5039a71fea9c] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 20:47:04 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 20:47:04 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 20:47:04 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 67055dff-49b6-4f31-9c87-72e90eb49a2a] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 20:47:04 [http-nio-8081-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 67055dff-49b6-4f31-9c87-72e90eb49a2a] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 46deea60-5b11-47de-bce5-5039a71fea9c] Response: 200 | Time Taken: 18 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:47:04 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 20:47:04 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 20:47:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:47:04 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:47:04 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:47:04 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 20:47:04 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:47:04 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2f908a99-5322-4a73-84b3-dc374d4b8ae6] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:47:04 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d9ea68d9-a77c-48ce-beaf-d3f6fa2fae4a] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 20:47:04 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a6e4f06e-c31f-40a0-ac60-6540f82eaa82] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:47:04 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 20:47:04 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ac49f683-f14c-43a6-91a7-e3d9edd30bd4] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 20:47:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:47:04 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6773a437-38f8-4c19-8d6f-a3b8f449d71c] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:47:04 [http-nio-8081-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ac49f683-f14c-43a6-91a7-e3d9edd30bd4] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d9ea68d9-a77c-48ce-beaf-d3f6fa2fae4a] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a6e4f06e-c31f-40a0-ac60-6540f82eaa82] Response: 200 | Time Taken: 3 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6773a437-38f8-4c19-8d6f-a3b8f449d71c] Response: 200 | Time Taken: 4 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2f908a99-5322-4a73-84b3-dc374d4b8ae6] Response: 200 | Time Taken: 8 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 20:47:04 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 20:47:04 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 7ba70100-871e-40a8-89dc-252ef4c4f670] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 20:47:04 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 7ba70100-871e-40a8-89dc-252ef4c4f670] Response: 200 | Time Taken: 3 ms
+2025-10-18 20:47:04 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:47:04 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:47:04 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 28ac15f0-cc00-4f53-b0af-b9e3b7349241] Incoming Request: GET /v3/api-docs
+2025-10-18 20:47:04 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:47:04 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 28ac15f0-cc00-4f53-b0af-b9e3b7349241] Response: 500 | Time Taken: 62 ms
+2025-10-18 20:48:35 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-18 20:48:35 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-18 20:48:35 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:48:35 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-18 20:48:35 [RMI TCP Connection(13)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:48:35 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:48:35 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:48:35 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:51:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:51:56 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.12 with PID 47560 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:51:56 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:51:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:51:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:51:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-18 20:51:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:51:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-18 20:51:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-18 20:51:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-18 20:51:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 685 ms
+2025-10-18 20:51:57 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-18 20:51:57 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:51:57 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:51:57 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:51:57 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:51:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:51:57 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70273633
+2025-10-18 20:51:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:51:57 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:51:57 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:51:57 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:51:57 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:51:58 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:51:58 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ff9cc3cd-6340-405f-a03b-8a483be4fb48
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:51:58 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:51:58 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:51:58 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:51:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:51:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-18 20:51:58 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.487 seconds (process running for 2.679)
+2025-10-18 20:51:59 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-18 20:51:59 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-18 20:51:59 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 20:52:04 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 20:52:04 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 67f28653-c88a-4c02-bd3f-c59194a3f41a] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 20:52:04 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 67f28653-c88a-4c02-bd3f-c59194a3f41a] Response: 200 | Time Taken: 13 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 20:52:04 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 20:52:04 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: cfc472aa-35bc-47ee-a68a-965bd347f10f] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 20:52:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 20:52:04 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:52:04 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: cfc472aa-35bc-47ee-a68a-965bd347f10f] Response: 200 | Time Taken: 2 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 20:52:04 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:52:04 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4dda4c45-6290-40da-bd2c-f4b4cd479a86] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 20:52:04 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:52:04 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0089f5aa-e1a8-4567-96b2-090f0974004f] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:52:04 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:52:04 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8c80f18b-709c-446a-91cd-e24daffb19ac] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:52:04 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4dda4c45-6290-40da-bd2c-f4b4cd479a86] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:52:04 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:52:04 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c8d9ce20-c907-4ee6-b408-f5ab9f012c11] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:52:04 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0089f5aa-e1a8-4567-96b2-090f0974004f] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8c80f18b-709c-446a-91cd-e24daffb19ac] Response: 200 | Time Taken: 7 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c8d9ce20-c907-4ee6-b408-f5ab9f012c11] Response: 200 | Time Taken: 6 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 20:52:04 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 20:52:04 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a6e3f394-35d9-471a-8100-3707150502fb] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 20:52:04 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a6e3f394-35d9-471a-8100-3707150502fb] Response: 200 | Time Taken: 10 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:52:04 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:52:04 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6d9cb920-d4cc-48ed-9e87-c99ffe7e8aa9] Incoming Request: GET /v3/api-docs
+2025-10-18 20:52:04 [http-nio-8081-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 6d9cb920-d4cc-48ed-9e87-c99ffe7e8aa9] Response: 500 | Time Taken: 50 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 20:52:04 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 20:52:04 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2f37c05d-554b-464a-90d4-5113cdaea3d2] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 20:52:04 [http-nio-8081-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2f37c05d-554b-464a-90d4-5113cdaea3d2] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 20:52:04 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 20:52:04 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:52:04 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 20:52:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:52:04 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:52:04 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 20:52:04 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 63fc10b2-90b3-4cfe-a502-a9418fd677e1] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 20:52:04 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:52:04 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f71c81b4-c665-41d4-9f74-8fda53e58c7a] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 20:52:04 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c2acc85a-5a3c-4732-a928-18981011792a] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 20:52:04 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:52:04 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ee8639ec-4fff-4dec-9979-f04e35d7586d] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 20:52:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:52:04 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f89a850b-7961-4361-8bd2-99bf073abfc1] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 20:52:04 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ee8639ec-4fff-4dec-9979-f04e35d7586d] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f71c81b4-c665-41d4-9f74-8fda53e58c7a] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 63fc10b2-90b3-4cfe-a502-a9418fd677e1] Response: 200 | Time Taken: 4 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f89a850b-7961-4361-8bd2-99bf073abfc1] Response: 200 | Time Taken: 4 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c2acc85a-5a3c-4732-a928-18981011792a] Response: 200 | Time Taken: 9 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 20:52:04 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 20:52:04 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4b4efacb-9931-442c-a9f1-7bdabc7144e2] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 20:52:04 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4b4efacb-9931-442c-a9f1-7bdabc7144e2] Response: 200 | Time Taken: 1 ms
+2025-10-18 20:52:04 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:52:04 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:52:04 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 065c73e0-6480-49f0-85bb-ea33452bdcc8] Incoming Request: GET /v3/api-docs
+2025-10-18 20:52:04 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:04 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 065c73e0-6480-49f0-85bb-ea33452bdcc8] Response: 500 | Time Taken: 24 ms
+2025-10-18 20:52:26 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:52:26 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:52:26 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 388f693c-55dc-49e1-b518-b87a3a2c3e33] Incoming Request: GET /v3/api-docs
+2025-10-18 20:52:26 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:26 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 388f693c-55dc-49e1-b518-b87a3a2c3e33] Response: 500 | Time Taken: 49 ms
+2025-10-18 20:52:26 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:52:26 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:52:26 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5f5e7b9f-48b2-447c-87af-43f9000a0749] Incoming Request: GET /v3/api-docs
+2025-10-18 20:52:26 [http-nio-8081-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:52:26 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5f5e7b9f-48b2-447c-87af-43f9000a0749] Response: 500 | Time Taken: 33 ms
+2025-10-18 20:53:07 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /apple-touch-icon-precomposed.png
+2025-10-18 20:53:07 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2025-10-18 20:53:07 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /apple-touch-icon.png
+2025-10-18 20:54:52 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:54:52 [main] INFO  c.n.r.RagChatStorageApplicationTests - Starting RagChatStorageApplicationTests using Java 17.0.14 with PID 49364 (started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:54:52 [main] INFO  c.n.r.RagChatStorageApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:54:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:54:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:54:53 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:54:53 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:54:53 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:54:53 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:54:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:54:53 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@75d0cac6
+2025-10-18 20:54:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:54:53 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:54:53 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:54:53 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:54:53 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:54:54 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:54:54 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3bc2e07f-8263-4087-9887-6a344fd0cf78
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:54:54 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:54:54 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:54:54 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:54:55 [main] INFO  c.n.r.RagChatStorageApplicationTests - Started RagChatStorageApplicationTests in 2.534 seconds (process running for 3.348)
+2025-10-18 20:54:55 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:54:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:54:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:55:08 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:55:08 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 49608 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:55:08 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:55:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:55:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-18 20:55:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:55:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-18 20:55:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-18 20:55:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-18 20:55:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 644 ms
+2025-10-18 20:55:08 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-18 20:55:08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:55:08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:55:08 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:55:09 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:55:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:55:09 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55cb3b7
+2025-10-18 20:55:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:55:09 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:55:09 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:55:09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:55:09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:55:09 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:55:09 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7002baac-539e-4427-930b-75b335b4a0c4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:55:09 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:55:09 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:55:09 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:55:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:55:10 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-10-18 20:55:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:55:10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:55:10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:55:10 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-18 20:55:10 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-10-18 20:55:16 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-18 20:55:16 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-18 20:55:16 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:55:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-18 20:55:16 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:55:16 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:55:16 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:55:16 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:55:23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:55:23 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 49745 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:55:23 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:55:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:55:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:55:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-18 20:55:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:55:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-18 20:55:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-18 20:55:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-18 20:55:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 642 ms
+2025-10-18 20:55:24 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-18 20:55:24 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:55:24 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:55:24 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:55:24 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:55:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:55:24 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1331d6fd
+2025-10-18 20:55:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:55:24 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:55:24 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:55:25 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:55:25 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:55:25 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:55:25 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9aecf233-a1a3-4e70-a0ae-3ecbc880fadf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:55:25 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:55:25 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:55:25 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:55:26 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:55:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-18 20:55:26 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.305 seconds (process running for 2.406)
+2025-10-18 20:55:49 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-18 20:55:49 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-18 20:55:49 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-18 20:55:49 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:55:49 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:55:49 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 7b97cc1f-8c21-49c4-8bc9-8cfa6bc857f4] Incoming Request: GET /v3/api-docs
+2025-10-18 20:55:49 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:55:49 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 7b97cc1f-8c21-49c4-8bc9-8cfa6bc857f4] Response: 500 | Time Taken: 75 ms
+2025-10-18 20:55:50 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:55:50 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:55:50 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b8c1874a-42ab-4843-a871-42b572d80f4e] Incoming Request: GET /v3/api-docs
+2025-10-18 20:55:51 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:55:51 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b8c1874a-42ab-4843-a871-42b572d80f4e] Response: 500 | Time Taken: 32 ms
+2025-10-18 20:55:51 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 20:55:51 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 20:55:51 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b56975ff-35b9-4023-951a-3774226551a7] Incoming Request: GET /v3/api-docs
+2025-10-18 20:55:51 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 20:55:51 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b56975ff-35b9-4023-951a-3774226551a7] Response: 500 | Time Taken: 28 ms
+2025-10-18 20:57:42 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-18 20:57:42 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-18 20:57:42 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:57:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:57:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:57:50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:57:50 [main] INFO  c.n.r.RagChatStorageApplicationTests - Starting RagChatStorageApplicationTests using Java 17.0.14 with PID 51198 (started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:57:50 [main] INFO  c.n.r.RagChatStorageApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:57:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:57:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:57:51 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:57:51 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:57:51 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:57:51 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:57:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:57:51 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ecf784f
+2025-10-18 20:57:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:57:51 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:57:51 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:57:52 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:57:52 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:57:52 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:57:52 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f84b572e-54b8-4f09-a079-463ce3c95e9f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:57:52 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:57:52 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:57:52 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:57:53 [main] INFO  c.n.r.RagChatStorageApplicationTests - Started RagChatStorageApplicationTests in 2.814 seconds (process running for 3.643)
+2025-10-18 20:57:53 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:57:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 20:57:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-18 20:59:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-18 20:59:57 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 52615 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-18 20:59:57 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 20:59:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 20:59:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2025-10-18 20:59:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-18 20:59:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:59:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-18 20:59:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-18 20:59:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-18 20:59:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 641 ms
+2025-10-18 20:59:58 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-18 20:59:58 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 20:59:58 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-18 20:59:58 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 20:59:58 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 20:59:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 20:59:58 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b5311cb
+2025-10-18 20:59:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 20:59:58 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 20:59:58 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 20:59:58 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 20:59:58 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 20:59:58 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 20:59:58 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 1f888b0e-7df5-44a3-8bdd-619a9b8e37a9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-18 20:59:58 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-18 20:59:59 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-18 20:59:59 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-18 20:59:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-18 20:59:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-18 20:59:59 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.368 seconds (process running for 2.467)
+2025-10-18 21:00:09 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-18 21:00:09 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-18 21:00:09 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-18 21:00:09 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui.html
+2025-10-18 21:00:09 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui.html
+2025-10-18 21:00:09 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f4bafab4-25a8-41b5-9ee1-c2e2808341e4] Incoming Request: GET /swagger-ui.html
+2025-10-18 21:00:09 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 21:00:09 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f4bafab4-25a8-41b5-9ee1-c2e2808341e4] Response: 302 | Time Taken: 19 ms
+2025-10-18 21:00:09 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+2025-10-18 21:00:09 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+2025-10-18 21:00:09 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0c9e00a7-f305-4abd-80a6-ef0b87354d73] Incoming Request: GET /swagger-ui/index.html
+2025-10-18 21:00:09 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 21:00:09 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 0c9e00a7-f305-4abd-80a6-ef0b87354d73] Response: 200 | Time Taken: 3 ms
+2025-10-18 21:00:10 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+2025-10-18 21:00:10 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+2025-10-18 21:00:10 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 7c740fc4-e093-4c6a-9aad-0a8ba3dddfcf] Incoming Request: GET /swagger-ui/swagger-ui.css
+2025-10-18 21:00:10 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+2025-10-18 21:00:10 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 21:00:10 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+2025-10-18 21:00:10 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a1a12334-0aa0-4faa-bc20-d1f0177df369] Incoming Request: GET /swagger-ui/index.css
+2025-10-18 21:00:10 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 21:00:10 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f7065ce7-f8b2-45b3-b47c-6b56b0b4947d] Incoming Request: GET /swagger-ui/swagger-ui-bundle.js
+2025-10-18 21:00:10 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 21:00:10 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 7c740fc4-e093-4c6a-9aad-0a8ba3dddfcf] Response: 200 | Time Taken: 2 ms
+2025-10-18 21:00:10 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+2025-10-18 21:00:10 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+2025-10-18 21:00:10 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 617c375f-95b4-4863-b876-3f9e4aa761d0] Incoming Request: GET /swagger-ui/swagger-initializer.js
+2025-10-18 21:00:10 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 21:00:10 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 21:00:10 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a1a12334-0aa0-4faa-bc20-d1f0177df369] Response: 200 | Time Taken: 2 ms
+2025-10-18 21:00:10 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 21:00:10 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: dc8f273f-414f-417f-98fe-5e18c1bfc9c5] Incoming Request: GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-10-18 21:00:10 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 21:00:10 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: dc8f273f-414f-417f-98fe-5e18c1bfc9c5] Response: 200 | Time Taken: 4 ms
+2025-10-18 21:00:10 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 21:00:10 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f7065ce7-f8b2-45b3-b47c-6b56b0b4947d] Response: 200 | Time Taken: 9 ms
+2025-10-18 21:00:10 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 21:00:10 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 617c375f-95b4-4863-b876-3f9e4aa761d0] Response: 200 | Time Taken: 14 ms
+2025-10-18 21:00:10 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+2025-10-18 21:00:10 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+2025-10-18 21:00:10 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a88a2fcd-ca47-4e14-a8c3-e76455f579e2] Incoming Request: GET /v3/api-docs/swagger-config
+2025-10-18 21:00:10 [http-nio-8081-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 21:00:10 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a88a2fcd-ca47-4e14-a8c3-e76455f579e2] Response: 200 | Time Taken: 5 ms
+2025-10-18 21:00:10 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+2025-10-18 21:00:10 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+2025-10-18 21:00:10 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d4c78e82-c6c0-4926-9066-d1f49dd17629] Incoming Request: GET /v3/api-docs
+2025-10-18 21:00:10 [http-nio-8081-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-18 21:00:10 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d4c78e82-c6c0-4926-9066-d1f49dd17629] Response: 500 | Time Taken: 71 ms
+2025-10-18 21:00:29 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-18 21:00:29 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-18 21:00:29 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 21:00:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 21:00:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

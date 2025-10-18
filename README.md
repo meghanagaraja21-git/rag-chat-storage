@@ -1,152 +1,136 @@
 # Rag Chat Storage Service
 
-## Project Overview
-The **Rag Chat Storage Service** is a Spring Boot microservice responsible for managing chat sessions and messages between users and AI. It includes features like session creation, message storage, API key-based security, and rate limiting. The service persists data in PostgreSQL and supports JSON context for messages.
+A Spring Boot microservice for storing and managing chat sessions and messages.  
+It supports secure REST APIs, API key authentication, Swagger/OpenAPI documentation, and health monitoring using Spring Boot Actuator.
 
 ---
 
-## Technology Stack
-- **Backend:** Java 17, Spring Boot 3.5.6  
-- **Database:** PostgreSQL  
-- **ORM:** Spring Data JPA, Hibernate  
-- **DTO Mapping:** MapStruct  
-- **Build Tool:** Maven  
-- **Security:** API Key authentication (via Spring Security filter)  
-- **Testing:** JUnit, Mockito  
-- **Docker:** Dockerfile + docker-compose  
+## 🚀 Features
+
+- CRUD APIs for Chat Sessions and Messages  
+- API Key–based authentication  
+- PostgreSQL/MongoDB integration (configurable)  
+- Lombok for concise entities and logging  
+- OpenAPI 3.0 + Swagger UI documentation  
+- Spring Boot Actuator for health checks  
+- Dockerized for deployment  
 
 ---
 
-## Project Structure
+## ⚙️ Tech Stack
+
+| Layer        | Technology                       |
+|------------- |---------------------------------|
+| Language     | Java 17                          |
+| Framework    | Spring Boot 3.5.x               |
+| Database     | PostgreSQL                       |
+| ORM          | Spring Data JPA                  |
+| Build Tool   | Maven                            |
+| Documentation| OpenAPI / Swagger                |
+| Logging      | SLF4J + Logback                  |
+| Security     | Custom API Key Filter            |
+
+---
+
+## 🏗️ Project Structure
+
 rag-chat-storage/
-├── src/main/java/com/northbay/rag_chat_storage
-│ ├── controller # REST controllers
-│ ├── service # Business logic and services
-│ ├── models # JPA entities (ChatSession, ChatMessage)
-│ ├── repository # Spring Data JPA repositories
-│ ├── config # Security, API key filter
-│ └── dto # DTOs for request/response mapping
-├── src/main/resources
-│ ├── application.properties
-│ └── data.sql (optional)
+├── src/
+│ ├── main/
+│ │ ├── java/com/northbay/rag_chat_storage/
+│ │ │ ├── controller/ # REST controllers
+│ │ │ ├── service/ # Business logic
+│ │ │ ├── repository/ # Spring Data JPA Repositories
+│ │ │ ├── models/ # Entities (ChatSession, ChatMessage)
+│ │ │ ├── config/ # Security + Swagger/OpenAPI config
+│ │ │ └── RagChatStorageApplication.java
+│ │ └── resources/
+│ │ ├── application.yml
+│ │ └── logback-spring.xml
+│ └── test/
+│ └── java/... # Unit and service layer tests
+├── pom.xml
 ├── Dockerfile
 ├── docker-compose.yml
-├── pom.xml
 └── README.md
 
 ---
 
-## Key Features
-1. **Chat Sessions**
-   - Create, update, and retrieve chat sessions.
-   - Each session belongs to a user (`userId`) and has a name.
-   
-2. **Chat Messages**
-   - Messages are linked to a session.
-   - Each message contains:
-     - `sender`: `"user"` or `"AI"`
-     - `content`: Message text
-     - `context` (optional): JSON context
-     - `createdAt`: Timestamp
+## 🧰 Setup & Running Instructions
 
-3. **API Key Authentication**
-   - Requests are secured using **API keys**.
-   - Multiple keys can be configured in `application.properties`.
-   - Incoming requests must include a valid API key in headers.
+### ✅ Prerequisites
+- Java 17+  
+- Maven 3.9+  
+- Docker (optional)  
+- PostgreSQL running locally (if using SQL DB)  
 
-4. **DTO Mapping**
-   - MapStruct is used for converting between **entity** and **DTO** classes.
-   - Ensures clean separation of request/response models from JPA entities.
-
-5. **Health Check & Actuator**
-   - `/actuator/health` endpoint is available to check service status.
-   - Other actuator endpoints can be enabled as needed.
-
-6. **Error Handling**
-   - Standard error codes are returned for scenarios like:
-     - `404` – Session or message not found
-     - `403` – Invalid API key
-     - `400` – Missing required parameters
-   - Global exception handling via `@ControllerAdvice`.
-
-7. **Rate Limiting**
-   - Optional: Can implement rate limiting per API key or per user (using Redis or in-memory for demo).
-
----
-
-## Database Schema
-
-### ChatSession
-| Column     | Type          | Notes                    |
-|------------|---------------|--------------------------|
-| id         | UUID          | Primary Key              |
-| userId     | VARCHAR       | ID of user               |
-| name       | VARCHAR       | Name of session          |
-| favorite   | BOOLEAN       | Default false            |
-| createdAt  | TIMESTAMP     | Default now()            |
-| updatedAt  | TIMESTAMP     | Default now()            |
-
-### ChatMessage
-| Column     | Type          | Notes                    |
-|------------|---------------|--------------------------|
-| id         | UUID          | Primary Key              |
-| session_id | UUID          | Foreign key to ChatSession |
-| sender     | VARCHAR       | `"user"` or `"AI"`       |
-| content    | TEXT          | Message text             |
-| context    | JSONB         | Optional JSON context    |
-| createdAt  | TIMESTAMP     | Default now()            |
-
----
-
-## Endpoints
-
-### Chat Sessions
-| Method | Endpoint                  | Description                  | Params         |
-|--------|---------------------------|------------------------------|----------------|
-| GET    | `/api/v1/sessions`        | Get sessions for user        | `userId` (query) |
-| POST   | `/api/v1/sessions`        | Create new session           | `userId`, `name` (body) |
-| GET    | `/api/v1/sessions/{id}`   | Get session by ID            | `{id}` (path) |
-
-### Chat Messages
-| Method | Endpoint                                        | Description                  | Params         |
-|--------|------------------------------------------------|------------------------------|----------------|
-| POST   | `/api/v1/sessions/{sessionId}/messages`       | Add new message              | `sender`, `content`, `context` (body) |
-| GET    | `/api/v1/sessions/{sessionId}/messages`       | Get messages for session     | `{sessionId}` (path) |
-
-### Health Check
-| Method | Endpoint          | Description       |
-|--------|-----------------|------------------|
-| GET    | `/actuator/health` | Check service health |
-
----
-
-## Setup and Running
-
-1. **Clone the repository**
+### 🛠️ Build & Run Locally
 ```bash
-git clone <repo-url>
+# 1. Clone the repo
+git clone https://github.com/meghanagaraja-git/rag-chat-storage.git
 cd rag-chat-storage
-Build using Maven
-mvn clean install -U
-Run the service
+
+# 2. Build with Maven
+mvn clean install
+
+# 3. Run the application
 mvn spring-boot:run
-Run with Docker
+Application runs at → http://localhost:8081
+🐳 Run with Docker
 docker build -t rag-chat-storage .
-docker run -p 8081:8081 rag-chat-storage
-Database configuration
-Set your PostgreSQL credentials in .env or application.properties:
-SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/rag_chat_storage
-SPRING_DATASOURCE_USERNAME=rag_user
-SPRING_DATASOURCE_PASSWORD=secret
-Testing
-Unit tests using JUnit 5 and Mockito are in src/test/java.
-To run tests:
+docker run -p 8082:8081 rag-chat-storage
+Or with docker-compose:
+docker-compose up --build
+🔐 Authentication
+All /api/v1/** endpoints require an API key.
+Add this header in each request:
+
+x-api-key: key1
+You can change the key inside application.yml.
+Swagger UI also supports an “Authorize” button to enter the key interactively.
+📚 API Endpoints
+Chat Sessions
+Method	Endpoint	Description
+GET	/api/v1/sessions	Get all chat sessions
+GET	/api/v1/sessions/{id}	Get session by ID
+POST	/api/v1/sessions	Create a new chat session
+PUT	/api/v1/sessions/{id}/rename	Rename an existing session
+PUT	/api/v1/sessions/{id}/favorite	Mark/unmark favorite
+DELETE	/api/v1/sessions/{id}	Delete a chat session
+Chat Messages
+Method	Endpoint	Description
+GET	/api/v1/sessions/{sessionId}/messages	Get all messages for a session
+POST	/api/v1/sessions/{sessionId}/messages	Add a message to a session
+DELETE	/api/v1/sessions/{sessionId}/messages/{id}	Delete a specific message
+❤️ Health Check
+Spring Boot Actuator endpoints:
+Endpoint	Description
+/actuator/health	Health status
+/actuator/info	App info
+/actuator/metrics	Metrics overview
+Example:
+curl http://localhost:8081/actuator/health
+Response:
+{
+  "status": "UP"
+}
+📘 OpenAPI / Swagger Documentation
+After the app starts:
+Swagger UI → http://localhost:8081/swagger-ui.html
+OpenAPI JSON → http://localhost:8081/v3/api-docs
+Ensure your SecurityConfig permits these URLs:
+.requestMatchers("/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
+🧩 Example API Call
+curl -X POST http://localhost:8081/api/v1/sessions \
+     -H "Content-Type: application/json" \
+     -H "x-api-key: key1" \
+     -d '{
+           "name": "Customer Support Chat",
+           "userId": "user123"
+         }'
+🧪 Run Tests
 mvn test
-Notes / Recommendations
-Multiple API keys can be configured in application.properties.
-MapStruct automatically maps DTOs → Entities.
-Standard error handling and logging implemented for all endpoints.
-Use Postman or curl for testing:
-curl -X POST http://localhost:8081/api/v1/sessions/<sessionId>/messages \
--H "x-api-key: key1" \
--d '{"sender":"user","content":"Hello","context":{"topic":"support"}}'
+Unit and integration tests are in src/test/java/....
+🧾 License
+This project is property of NorthBay Solutions.
+Internal and educational use only.
