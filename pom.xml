@@ -34,17 +34,11 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!-- Micrometer Core (exclude system metrics) -->
-        <dependency>
-            <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-core</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>io.micrometer</groupId>
-                    <artifactId>micrometer-system</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+      <dependency>
+    <groupId>com.vladmihalcea</groupId>
+    <artifactId>hibernate-types-60</artifactId>
+    <version>2.20.0</version>
+</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -178,21 +172,21 @@
             </configuration>
         </plugin>
 
-<plugin>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-maven-plugin</artifactId>
-    <version>3.5.6</version>
-    <configuration>
-        <mainClass>com.northbay.rag_chat_storage.RagChatStorageApplication</mainClass>
-    </configuration>
-    <executions>
-        <execution>
-            <goals>
-                <goal>repackage</goal>
-            </goals>
-        </execution>
-    </executions>
-</plugin>
+		<plugin>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-maven-plugin</artifactId>
+		    <version>3.5.6</version>
+		    <configuration>
+		        <mainClass>com.northbay.rag_chat_storage.RagChatStorageApplication</mainClass>
+		    </configuration>
+		    <executions>
+		        <execution>
+		            <goals>
+		                <goal>repackage</goal>
+		            </goals>
+		        </execution>
+		    </executions>
+		</plugin>
 		</plugins>
 		
 		

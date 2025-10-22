@@ -13,4 +13,6 @@ public class FavoriteSessionRequest {
 	public void setFavorite(boolean favorite) {
 		this.favorite = favorite;
 	}
+
+	
 }

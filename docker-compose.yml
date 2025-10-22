@@ -13,7 +13,7 @@ services:
       - pgdata:/var/lib/postgresql/data
 
   pgadmin:
-    image: dpage/pgadmin4
+    image: dpage/pgadmin4:latest
     container_name: my-pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
@@ -25,9 +25,9 @@ services:
 
   app:
     build: .
-    container_name: rag-chat-storage
+    image: rag-chat-storage:latest
     environment:
-      API_KEY: mysecretapikey
+      API_KEY: key1,key2,key3
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/rag_chat_storage
       SPRING_DATASOURCE_USERNAME: rag_user
       SPRING_DATASOURCE_PASSWORD: Mena2107@!

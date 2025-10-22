@@ -13,9 +13,8 @@ public class ChatMessageRequest {
     private String content;
 
     private String context; // optional JSON/context string
-    
-    
-    public String getSender() {
+
+	public String getSender() {
 		return sender;
 	}
 
@@ -38,4 +37,7 @@ public class ChatMessageRequest {
 	public void setContext(String context) {
 		this.context = context;
 	}
+
+	
+	
 }

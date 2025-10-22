@@ -23,12 +23,14 @@ import com.northbay.rag_chat_storage.models.ChatSession;
 import com.northbay.rag_chat_storage.service.ChatMessageService;
 import com.northbay.rag_chat_storage.service.ChatSessionService;
 
+import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/v1/sessions/{sessionId}/messages")
 @RequiredArgsConstructor
+
 public class ChatMessageController {
 
     @Autowired
@@ -74,15 +76,6 @@ public class ChatMessageController {
         return ResponseEntity.ok(messages);
     }
     
-    @RateLimited(name = LIMITER_NAME)
-    @DeleteMapping("/{messageId}")
-    public ResponseEntity<Void> deleteMessage(
-            @PathVariable UUID sessionId,
-            @PathVariable UUID messageId) {
-
-        ChatSession session = sessionService.getSession(sessionId);
-        messageService.deleteMessage(session, messageId);
-
-        return ResponseEntity.noContent().build();
-    }
+  
+    
 }

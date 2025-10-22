@@ -6,8 +6,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Data
-@Getter
-@Setter
 public class CreateSessionRequest {
     @NotBlank
     private String userId;
@@ -31,4 +29,5 @@ public class CreateSessionRequest {
 		this.name = name;
 	}
 
+	
 }

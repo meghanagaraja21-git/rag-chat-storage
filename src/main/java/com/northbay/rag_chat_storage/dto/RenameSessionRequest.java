@@ -6,8 +6,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Data
-@Getter
-@Setter
 public class RenameSessionRequest {
     @NotBlank
     private String name;
@@ -19,4 +17,6 @@ public class RenameSessionRequest {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	
 }

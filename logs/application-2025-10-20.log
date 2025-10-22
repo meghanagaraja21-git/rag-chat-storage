@@ -1,0 +1,950 @@
+2025-10-20 00:02:57 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions
+2025-10-20 00:02:57 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions
+2025-10-20 00:02:57 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 30283412-b062-432b-9f45-562e672d009f] Incoming Request: GET /api/v1/sessions
+2025-10-20 00:02:57 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions
+2025-10-20 00:02:57 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions
+2025-10-20 00:02:57 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 65c24888-fc79-4bd2-90c5-e409fc8e96ab] Incoming Request: GET /api/v1/sessions
+2025-10-20 00:02:57 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 30283412-b062-432b-9f45-562e672d009f] Response: 200 | Time Taken: 16 ms
+2025-10-20 00:02:57 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 65c24888-fc79-4bd2-90c5-e409fc8e96ab] Response: 200 | Time Taken: 15 ms
+2025-10-20 00:03:14 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions
+2025-10-20 00:03:14 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions
+2025-10-20 00:03:14 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions
+2025-10-20 00:03:14 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions
+2025-10-20 00:03:14 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 3375e15a-592a-47d8-86a4-8a7df42a75ec] Incoming Request: GET /api/v1/sessions
+2025-10-20 00:03:14 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ad8f7cc7-3b9d-4778-9de1-e592c36c953c] Incoming Request: GET /api/v1/sessions
+2025-10-20 00:03:14 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 3375e15a-592a-47d8-86a4-8a7df42a75ec] Response: 200 | Time Taken: 27 ms
+2025-10-20 00:03:14 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ad8f7cc7-3b9d-4778-9de1-e592c36c953c] Response: 200 | Time Taken: 27 ms
+2025-10-20 00:03:18 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:18 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:18 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:18 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 76d509a1-739f-47c2-acda-1da54bb3154b] Incoming Request: GET /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:18 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:18 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4ab93956-8ea4-4353-b793-9c7462881a21] Incoming Request: GET /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:18 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 76d509a1-739f-47c2-acda-1da54bb3154b] Response: 200 | Time Taken: 12 ms
+2025-10-20 00:03:18 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4ab93956-8ea4-4353-b793-9c7462881a21] Response: 200 | Time Taken: 10 ms
+2025-10-20 00:03:26 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:26 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:26 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2120bde7-6e2d-4335-8e95-a881bc80e85a] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:26 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2120bde7-6e2d-4335-8e95-a881bc80e85a] Response: 500 | Time Taken: 45 ms
+2025-10-20 00:03:29 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:29 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:29 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: bafa1692-2029-42c5-ac85-136604d6bf1a] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:29 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: bafa1692-2029-42c5-ac85-136604d6bf1a] Response: 500 | Time Taken: 4 ms
+2025-10-20 00:03:30 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:30 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:30 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 235e1462-57ee-41b9-95e9-f3322c3387f8] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:30 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 235e1462-57ee-41b9-95e9-f3322c3387f8] Response: 500 | Time Taken: 4 ms
+2025-10-20 00:03:31 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:31 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:31 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 12331fad-5468-417c-9b81-0b0275f8db18] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:31 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 12331fad-5468-417c-9b81-0b0275f8db18] Response: 500 | Time Taken: 5 ms
+2025-10-20 00:03:31 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:31 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:31 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f1b03587-3102-4c9b-a91c-58bb68499589] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:31 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f1b03587-3102-4c9b-a91c-58bb68499589] Response: 500 | Time Taken: 4 ms
+2025-10-20 00:03:42 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:42 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:42 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c7f97e7f-374b-40ee-b0be-51e51b6b4532] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:03:42 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c7f97e7f-374b-40ee-b0be-51e51b6b4532] Response: 500 | Time Taken: 7 ms
+2025-10-20 00:11:33 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:11:33 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:11:33 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ec33f676-9641-4f32-a57d-16c25b98566d] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:11:33 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ec33f676-9641-4f32-a57d-16c25b98566d] Response: 500 | Time Taken: 9 ms
+2025-10-20 00:13:32 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46
+2025-10-20 00:13:32 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46
+2025-10-20 00:13:32 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a78453f9-852f-40e2-890a-8e55c36a75ed] Incoming Request: GET /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46
+2025-10-20 00:13:32 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a78453f9-852f-40e2-890a-8e55c36a75ed] Response: 200 | Time Taken: 17 ms
+2025-10-20 00:16:16 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:16:16 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:16:16 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 12f13aa4-de05-47af-920d-fb385a6be06b] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:16:16 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 12f13aa4-de05-47af-920d-fb385a6be06b] Response: 500 | Time Taken: 9 ms
+2025-10-20 00:20:53 [RMI TCP Connection(39)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-20 00:20:53 [RMI TCP Connection(39)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-20 00:20:53 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-20 00:20:53 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-20 00:20:53 [RMI TCP Connection(39)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-20 00:20:53 [RMI TCP Connection(39)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 00:20:53 [RMI TCP Connection(39)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-20 00:20:53 [RMI TCP Connection(39)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-20 00:20:55 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-20 00:20:55 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 69711 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-20 00:20:55 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-20 00:20:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-20 00:20:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2025-10-20 00:20:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-20 00:20:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-20 00:20:56 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-20 00:20:56 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-20 00:20:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-20 00:20:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 699 ms
+2025-10-20 00:20:56 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-20 00:20:56 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-20 00:20:56 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-20 00:20:56 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-20 00:20:56 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-20 00:20:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-20 00:20:56 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31b67d61
+2025-10-20 00:20:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-20 00:20:56 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-20 00:20:56 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-20 00:20:56 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-20 00:20:56 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 00:20:57 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-20 00:20:57 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 68bb30ff-3362-459c-af7d-881336782231
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-20 00:20:57 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-20 00:20:57 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-20 00:20:57 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-20 00:20:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-20 00:20:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-20 00:20:57 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.527 seconds (process running for 2.695)
+2025-10-20 00:20:58 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-20 00:20:58 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-20 00:20:58 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-20 00:23:20 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:23:20 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:23:20 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 07c2c9d3-5ae1-40c9-a27d-e83dd6f0f4f9] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:23:20 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 07c2c9d3-5ae1-40c9-a27d-e83dd6f0f4f9] Response: 500 | Time Taken: 78 ms
+2025-10-20 00:25:40 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-20 00:25:40 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-20 00:25:40 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-20 00:25:40 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-20 00:25:40 [RMI TCP Connection(17)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-20 00:25:40 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 00:25:40 [RMI TCP Connection(17)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-20 00:25:40 [RMI TCP Connection(17)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-20 00:25:42 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-20 00:25:42 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 72637 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-20 00:25:42 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-20 00:25:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-20 00:25:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2025-10-20 00:25:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-20 00:25:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-20 00:25:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-20 00:25:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-20 00:25:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-20 00:25:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 695 ms
+2025-10-20 00:25:43 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-20 00:25:43 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-20 00:25:43 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-20 00:25:43 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-20 00:25:43 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-20 00:25:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-20 00:25:43 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56ec6ac0
+2025-10-20 00:25:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-20 00:25:43 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-20 00:25:43 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-20 00:25:43 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-20 00:25:43 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 00:25:44 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-20 00:25:44 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8ec6de0d-74d5-4290-89f0-dd2e70822cf8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-20 00:25:44 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-20 00:25:44 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-20 00:25:44 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-20 00:25:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-20 00:25:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-20 00:25:44 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.521 seconds (process running for 2.689)
+2025-10-20 00:25:45 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-20 00:25:45 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-20 00:25:45 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-20 00:25:55 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:25:55 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:25:55 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c910e39e-fca5-4c39-b84c-2c06b7d4dc9e] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 00:25:55 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c910e39e-fca5-4c39-b84c-2c06b7d4dc9e] Response: 500 | Time Taken: 75 ms
+2025-10-20 01:11:29 [RMI TCP Connection(58)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-20 01:11:29 [RMI TCP Connection(58)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-20 01:11:29 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:11:29 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-20 01:11:29 [RMI TCP Connection(58)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:11:29 [RMI TCP Connection(58)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:11:29 [RMI TCP Connection(58)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-20 01:11:29 [RMI TCP Connection(58)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-20 01:11:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-20 01:11:31 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 452 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-20 01:11:31 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-20 01:11:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-20 01:11:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2025-10-20 01:11:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-20 01:11:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:11:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-20 01:11:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-20 01:11:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-20 01:11:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 765 ms
+2025-10-20 01:11:32 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-20 01:11:32 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-20 01:11:32 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-20 01:11:32 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-20 01:11:32 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-20 01:11:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-20 01:11:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29d81c22
+2025-10-20 01:11:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-20 01:11:32 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-20 01:11:32 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-20 01:11:32 [main] INFO  o.h.m.i.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: com.northbay.rag_chat_storage.models.ChatMessage (class must be instantiated by Interceptor)
+2025-10-20 01:11:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-20 01:11:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:11:32 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-20 01:11:32 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 564d29fc-12aa-4a95-bc03-b2b7db058373
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-20 01:11:32 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-20 01:11:33 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-20 01:11:33 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-20 01:11:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:11:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-20 01:11:33 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.737 seconds (process running for 2.964)
+2025-10-20 01:11:33 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-20 01:11:33 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-20 01:11:33 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-20 01:11:36 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 01:11:36 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 01:11:36 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 42958209-bbe0-40b9-9920-b66970530d49] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 01:11:36 [http-nio-8081-exec-1] INFO  o.h.e.i.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.InstantiationException: No default constructor for entity 'com.northbay.rag_chat_storage.models.ChatMessage'
+	at org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard.instantiate(EntityInstantiatorPojoStandard.java:93)
+	at org.hibernate.persister.entity.AbstractEntityPersister.instantiate(AbstractEntityPersister.java:4768)
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1489)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.instantiateEntity(EntityInitializerImpl.java:1254)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveEntityInstance(EntityInitializerImpl.java:1247)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveEntityInstance2(EntityInitializerImpl.java:1205)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveEntityInstance1(EntityInitializerImpl.java:1121)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveInstance(EntityInitializerImpl.java:1032)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveKey(EntityInitializerImpl.java:587)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveKey(EntityInitializerImpl.java:457)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveKey(EntityInitializerImpl.java:97)
+	at org.hibernate.sql.results.graph.Initializer.resolveKey(Initializer.java:101)
+	at org.hibernate.sql.results.graph.collection.internal.AbstractImmediateCollectionInitializer.resolveKeySubInitializers(AbstractImmediateCollectionInitializer.java:189)
+	at org.hibernate.sql.results.graph.collection.internal.AbstractImmediateCollectionInitializer.resolveCollectionContentKey(AbstractImmediateCollectionInitializer.java:176)
+	at org.hibernate.sql.results.graph.collection.internal.AbstractImmediateCollectionInitializer.resolveKey(AbstractImmediateCollectionInitializer.java:123)
+	at org.hibernate.sql.results.graph.collection.internal.AbstractImmediateCollectionInitializer.resolveKey(AbstractImmediateCollectionInitializer.java:42)
+	at org.hibernate.sql.results.graph.Initializer.resolveKey(Initializer.java:101)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveKeySubInitializers(EntityInitializerImpl.java:700)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveKey(EntityInitializerImpl.java:605)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveKey(EntityInitializerImpl.java:457)
+	at org.hibernate.sql.results.graph.entity.internal.EntityInitializerImpl.resolveKey(EntityInitializerImpl.java:97)
+	at org.hibernate.sql.results.internal.StandardRowReader.coordinateInitializers(StandardRowReader.java:235)
+	at org.hibernate.sql.results.internal.StandardRowReader.readRow(StandardRowReader.java:141)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.readUnique(ListResultsConsumer.java:283)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:195)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:35)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:224)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:74)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3908)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3897)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:206)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:289)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:241)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:110)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:69)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1229)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1217)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:161)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:150)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:113)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:150)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2459)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2430)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy158.find(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy2/jdk.proxy2.$Proxy158.find(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:335)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:734)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy164.findById(Unknown Source)
+	at com.northbay.rag_chat_storage.service.ChatSessionService.getSession(ChatSessionService.java:35)
+	at com.northbay.rag_chat_storage.controller.ChatMessageController.addMessage(ChatMessageController.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.northbay.rag_chat_storage.aspect.RateLimiterAspect.aroundRateLimitedMethod(RateLimiterAspect.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.northbay.rag_chat_storage.controller.ChatMessageController$$SpringCGLIB$$0.addMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.northbay.rag_chat_storage.config.RequestResponseLoggingFilter.doFilter(RequestResponseLoggingFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:490)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:351)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:83)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:129)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at com.northbay.rag_chat_storage.config.ApiKeyAuthFilter.doFilterInternal(ApiKeyAuthFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:334)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-10-20 01:11:36 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 42958209-bbe0-40b9-9920-b66970530d49] Response: 500 | Time Taken: 95 ms
+2025-10-20 01:13:08 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-20 01:13:08 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-20 01:13:08 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:13:08 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-20 01:13:08 [RMI TCP Connection(13)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:13:08 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:13:08 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-20 01:13:08 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-20 01:13:10 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-20 01:13:10 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 1500 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-20 01:13:10 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-20 01:13:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-20 01:13:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2025-10-20 01:13:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-20 01:13:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:13:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-20 01:13:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-20 01:13:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-20 01:13:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 699 ms
+2025-10-20 01:13:11 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-20 01:13:11 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-20 01:13:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-20 01:13:11 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-20 01:13:11 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-20 01:13:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-20 01:13:11 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@75e92bb7
+2025-10-20 01:13:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-20 01:13:11 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-20 01:13:11 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-20 01:13:11 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-20 01:13:11 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:13:11 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-20 01:13:12 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b7583a36-6f5c-4674-90af-ec784eb52acf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-20 01:13:12 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-20 01:13:12 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-20 01:13:12 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-20 01:13:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:13:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-20 01:13:12 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.62 seconds (process running for 2.789)
+2025-10-20 01:13:13 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-20 01:13:13 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-20 01:13:13 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-20 01:13:18 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 01:13:18 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 01:13:18 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 40d278ed-0cff-4af7-a99f-5e567cf0144e] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 01:13:18 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 40d278ed-0cff-4af7-a99f-5e567cf0144e] Response: 201 | Time Taken: 81 ms
+2025-10-20 01:15:16 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-20 01:15:16 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-20 01:15:16 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:15:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-20 01:15:16 [RMI TCP Connection(12)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:15:16 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:15:16 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-20 01:15:16 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-20 01:15:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-20 01:15:17 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 2801 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-20 01:15:17 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-20 01:15:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-20 01:15:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-10-20 01:15:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-20 01:15:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:15:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-20 01:15:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-20 01:15:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-20 01:15:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 712 ms
+2025-10-20 01:15:17 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-20 01:15:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-20 01:15:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-20 01:15:17 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-20 01:15:18 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-20 01:15:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-20 01:15:18 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7bfc36d5
+2025-10-20 01:15:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-20 01:15:18 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-20 01:15:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-20 01:15:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-20 01:15:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:15:18 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-20 01:15:18 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 98e1d7b9-4f4d-4ad4-8c6e-ffe76c75804e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-20 01:15:18 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-20 01:15:19 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-20 01:15:19 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-20 01:15:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:15:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-20 01:15:19 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.57 seconds (process running for 2.755)
+2025-10-20 01:15:19 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-20 01:15:19 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-20 01:15:19 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-20 01:15:23 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 01:15:23 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 01:15:23 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 492907b1-08fc-415c-955d-62e4eb2d4bf0] Incoming Request: POST /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46/messages
+2025-10-20 01:15:23 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 492907b1-08fc-415c-955d-62e4eb2d4bf0] Response: 201 | Time Taken: 85 ms
+2025-10-20 01:16:46 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions
+2025-10-20 01:16:46 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions
+2025-10-20 01:16:46 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b684ab05-12b9-4b88-a636-03144b4a176b] Incoming Request: POST /api/v1/sessions
+2025-10-20 01:16:46 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b684ab05-12b9-4b88-a636-03144b4a176b] Response: 201 | Time Taken: 21 ms
+2025-10-20 01:17:16 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174"/messages
+2025-10-20 01:17:16 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174"/messages
+2025-10-20 01:17:16 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8edab8d3-1ab0-48b6-bc47-3f8e3d325e67] Incoming Request: POST /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174%22/messages
+2025-10-20 01:17:16 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8edab8d3-1ab0-48b6-bc47-3f8e3d325e67] Response: 500 | Time Taken: 9 ms
+2025-10-20 01:17:28 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174/messages
+2025-10-20 01:17:28 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174/messages
+2025-10-20 01:17:28 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4fd97f56-21c1-4cc0-a9e3-b4b16e76af20] Incoming Request: POST /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174/messages
+2025-10-20 01:17:28 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4fd97f56-21c1-4cc0-a9e3-b4b16e76af20] Response: 201 | Time Taken: 11 ms
+2025-10-20 01:17:42 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174
+2025-10-20 01:17:42 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174
+2025-10-20 01:17:42 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 10417938-a5c2-4181-8907-7f072928c4ac] Incoming Request: GET /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174
+2025-10-20 01:17:42 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 10417938-a5c2-4181-8907-7f072928c4ac] Response: 200 | Time Taken: 8 ms
+2025-10-20 01:17:54 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 68f5480a-de57-442d-be00-b5e7284429cd] Incoming Request: OPTIONS /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b8b00010-d8db-4759-9d90-89bf53c7b781] Incoming Request: OPTIONS /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:17:54 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:17:54 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b8b00010-d8db-4759-9d90-89bf53c7b781] Response: 200 | Time Taken: 14 ms
+2025-10-20 01:17:54 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 68f5480a-de57-442d-be00-b5e7284429cd] Response: 200 | Time Taken: 14 ms
+2025-10-20 01:17:54 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 134f6021-564e-4a8a-a6f0-be4112654afa] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ce86aabb-5c3e-4b2f-8ace-0524bef2139c] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:17:54 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 134f6021-564e-4a8a-a6f0-be4112654afa] Response: 200 | Time Taken: 52 ms
+2025-10-20 01:17:54 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ce86aabb-5c3e-4b2f-8ace-0524bef2139c] Response: 200 | Time Taken: 53 ms
+2025-10-20 01:17:57 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ba925e10-abb3-4783-8c06-846408280729] Incoming Request: OPTIONS /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8e33a42b-88bb-4aa6-81e7-a6bd809021e7] Incoming Request: OPTIONS /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:17:57 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:17:57 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ba925e10-abb3-4783-8c06-846408280729] Response: 200 | Time Taken: 3 ms
+2025-10-20 01:17:57 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8e33a42b-88bb-4aa6-81e7-a6bd809021e7] Response: 200 | Time Taken: 3 ms
+2025-10-20 01:17:57 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: eefc86f4-514e-4d11-b1aa-8903bf785f76] Incoming Request: GET /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 854eb7c7-b31c-43e8-89c8-c3eb3588d9e3] Incoming Request: GET /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:17:57 [http-nio-8081-exec-6] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-10-20 01:17:57 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: eefc86f4-514e-4d11-b1aa-8903bf785f76] Response: 200 | Time Taken: 25 ms
+2025-10-20 01:17:57 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 854eb7c7-b31c-43e8-89c8-c3eb3588d9e3] Response: 200 | Time Taken: 24 ms
+2025-10-20 01:18:04 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:18:04 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:18:04 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a07ab305-cf12-4367-873d-fadf82514d1e] Incoming Request: POST /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:18:04 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a07ab305-cf12-4367-873d-fadf82514d1e] Response: 201 | Time Taken: 10 ms
+2025-10-20 01:18:12 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:18:12 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:18:12 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 42ac641c-fc42-4a33-b88b-80dcbb9ab91a] Incoming Request: POST /api/v1/sessions/901af26f-45d8-4a24-b955-51bf51c53e0d/messages
+2025-10-20 01:18:12 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 42ac641c-fc42-4a33-b88b-80dcbb9ab91a] Response: 201 | Time Taken: 17 ms
+2025-10-20 01:18:26 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions
+2025-10-20 01:18:26 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions
+2025-10-20 01:18:26 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c8b6dd41-7531-4c23-ae88-312d1013b2a2] Incoming Request: POST /api/v1/sessions
+2025-10-20 01:18:26 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c8b6dd41-7531-4c23-ae88-312d1013b2a2] Response: 201 | Time Taken: 16 ms
+2025-10-20 01:18:27 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46
+2025-10-20 01:18:27 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46
+2025-10-20 01:18:27 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: bbc7264a-5ff8-4962-b21f-2395e5647c85] Incoming Request: OPTIONS /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46
+2025-10-20 01:18:27 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:18:27 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: bbc7264a-5ff8-4962-b21f-2395e5647c85] Response: 200 | Time Taken: 3 ms
+2025-10-20 01:18:27 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46
+2025-10-20 01:18:27 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46
+2025-10-20 01:18:27 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f304a281-3525-49ca-9af8-38bafd2166c3] Incoming Request: DELETE /api/v1/sessions/bba716e1-71f3-4ba5-994b-17435637ac46
+2025-10-20 01:18:27 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: f304a281-3525-49ca-9af8-38bafd2166c3] Response: 204 | Time Taken: 106 ms
+2025-10-20 01:18:28 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions/cf3434f5-5cff-48ed-b9e2-a79bdb8ac35f
+2025-10-20 01:18:28 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions/cf3434f5-5cff-48ed-b9e2-a79bdb8ac35f
+2025-10-20 01:18:28 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 9fdb27eb-f7f6-4715-9011-6c100ab0c8fe] Incoming Request: OPTIONS /api/v1/sessions/cf3434f5-5cff-48ed-b9e2-a79bdb8ac35f
+2025-10-20 01:18:28 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:18:28 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 9fdb27eb-f7f6-4715-9011-6c100ab0c8fe] Response: 200 | Time Taken: 1 ms
+2025-10-20 01:18:28 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/v1/sessions/cf3434f5-5cff-48ed-b9e2-a79bdb8ac35f
+2025-10-20 01:18:28 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/v1/sessions/cf3434f5-5cff-48ed-b9e2-a79bdb8ac35f
+2025-10-20 01:18:28 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2cd78d0f-63e2-47dd-ba4d-82e2404ed001] Incoming Request: DELETE /api/v1/sessions/cf3434f5-5cff-48ed-b9e2-a79bdb8ac35f
+2025-10-20 01:18:28 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 2cd78d0f-63e2-47dd-ba4d-82e2404ed001] Response: 204 | Time Taken: 9 ms
+2025-10-20 01:18:29 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions/e34ebb61-0e97-417d-a601-6e84ccd1a4ee
+2025-10-20 01:18:29 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions/e34ebb61-0e97-417d-a601-6e84ccd1a4ee
+2025-10-20 01:18:29 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8dc4e7eb-c81e-4456-a0ed-80d9d772d22d] Incoming Request: OPTIONS /api/v1/sessions/e34ebb61-0e97-417d-a601-6e84ccd1a4ee
+2025-10-20 01:18:29 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:18:29 [http-nio-8081-exec-5] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8dc4e7eb-c81e-4456-a0ed-80d9d772d22d] Response: 200 | Time Taken: 2 ms
+2025-10-20 01:18:29 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/v1/sessions/e34ebb61-0e97-417d-a601-6e84ccd1a4ee
+2025-10-20 01:18:29 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/v1/sessions/e34ebb61-0e97-417d-a601-6e84ccd1a4ee
+2025-10-20 01:18:29 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 19195bea-8009-4a6c-8483-5343f506634c] Incoming Request: DELETE /api/v1/sessions/e34ebb61-0e97-417d-a601-6e84ccd1a4ee
+2025-10-20 01:18:29 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 19195bea-8009-4a6c-8483-5343f506634c] Response: 204 | Time Taken: 8 ms
+2025-10-20 01:18:30 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions/6951c834-653d-4230-8270-f6bea59c1d04
+2025-10-20 01:18:30 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions/6951c834-653d-4230-8270-f6bea59c1d04
+2025-10-20 01:18:30 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 10ac80b4-1694-4ba8-b829-88ca84fa7038] Incoming Request: OPTIONS /api/v1/sessions/6951c834-653d-4230-8270-f6bea59c1d04
+2025-10-20 01:18:30 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:18:30 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 10ac80b4-1694-4ba8-b829-88ca84fa7038] Response: 200 | Time Taken: 2 ms
+2025-10-20 01:18:30 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/v1/sessions/6951c834-653d-4230-8270-f6bea59c1d04
+2025-10-20 01:18:30 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/v1/sessions/6951c834-653d-4230-8270-f6bea59c1d04
+2025-10-20 01:18:30 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d89cce2c-54d7-49a0-ac6e-ed511a3d33ad] Incoming Request: DELETE /api/v1/sessions/6951c834-653d-4230-8270-f6bea59c1d04
+2025-10-20 01:18:30 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d89cce2c-54d7-49a0-ac6e-ed511a3d33ad] Response: 204 | Time Taken: 24 ms
+2025-10-20 01:18:31 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174
+2025-10-20 01:18:31 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174
+2025-10-20 01:18:31 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5aaef9f4-3a48-48f9-b5a0-2dfe78fc0332] Incoming Request: OPTIONS /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174
+2025-10-20 01:18:31 [http-nio-8081-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:18:31 [http-nio-8081-exec-9] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 5aaef9f4-3a48-48f9-b5a0-2dfe78fc0332] Response: 200 | Time Taken: 2 ms
+2025-10-20 01:18:31 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174
+2025-10-20 01:18:31 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174
+2025-10-20 01:18:31 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4d36af04-f3a5-4646-a956-0a2b0a5dfdb0] Incoming Request: DELETE /api/v1/sessions/c54bd2a0-1f0e-4b56-ab51-c0ec6885c174
+2025-10-20 01:18:31 [http-nio-8081-exec-10] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 4d36af04-f3a5-4646-a956-0a2b0a5dfdb0] Response: 204 | Time Taken: 10 ms
+2025-10-20 01:18:36 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/sessions/136db30a-9ffb-4525-817d-7917c71a338b/messages
+2025-10-20 01:18:36 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/sessions/136db30a-9ffb-4525-817d-7917c71a338b/messages
+2025-10-20 01:18:36 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 1a9496f8-07af-4190-8c4b-3bf5fd5e7c46] Incoming Request: OPTIONS /api/v1/sessions/136db30a-9ffb-4525-817d-7917c71a338b/messages
+2025-10-20 01:18:36 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-10-20 01:18:36 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 1a9496f8-07af-4190-8c4b-3bf5fd5e7c46] Response: 200 | Time Taken: 1 ms
+2025-10-20 01:18:36 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions/136db30a-9ffb-4525-817d-7917c71a338b/messages
+2025-10-20 01:18:36 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions/136db30a-9ffb-4525-817d-7917c71a338b/messages
+2025-10-20 01:18:36 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b842d60b-d687-46b8-bae0-c2fd2d487ecd] Incoming Request: GET /api/v1/sessions/136db30a-9ffb-4525-817d-7917c71a338b/messages
+2025-10-20 01:18:36 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: b842d60b-d687-46b8-bae0-c2fd2d487ecd] Response: 200 | Time Taken: 9 ms
+2025-10-20 01:18:43 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/sessions/136db30a-9ffb-4525-817d-7917c71a338b/messages
+2025-10-20 01:18:43 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/sessions/136db30a-9ffb-4525-817d-7917c71a338b/messages
+2025-10-20 01:18:43 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: cbf0f1d7-94ed-492b-acb8-c3e7709a9381] Incoming Request: POST /api/v1/sessions/136db30a-9ffb-4525-817d-7917c71a338b/messages
+2025-10-20 01:18:43 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: cbf0f1d7-94ed-492b-acb8-c3e7709a9381] Response: 201 | Time Taken: 14 ms
+2025-10-20 01:19:42 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions?userId=saad
+2025-10-20 01:19:42 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions?userId=saad
+2025-10-20 01:19:42 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8b42dc80-a373-4d9e-805f-b01729147c90] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:19:42 [http-nio-8081-exec-8] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 8b42dc80-a373-4d9e-805f-b01729147c90] Response: 200 | Time Taken: 14 ms
+2025-10-20 01:27:41 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-20 01:27:41 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-20 01:27:41 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:27:41 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-20 01:27:41 [RMI TCP Connection(25)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:27:41 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:27:41 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-20 01:27:41 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-20 01:27:48 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-20 01:27:48 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 10453 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-20 01:27:48 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-20 01:27:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-20 01:27:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2025-10-20 01:27:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-20 01:27:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:27:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-20 01:27:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-20 01:27:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-20 01:27:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 676 ms
+2025-10-20 01:27:49 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-20 01:27:49 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-20 01:27:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-20 01:27:49 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-20 01:27:49 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-20 01:27:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-20 01:27:49 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a3383dc
+2025-10-20 01:27:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-20 01:27:49 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-20 01:27:49 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-20 01:27:50 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-20 01:27:50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:27:50 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-20 01:27:50 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ee3eb3fc-c778-4864-ad38-897aebc66f2d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-20 01:27:50 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-20 01:27:50 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-20 01:27:50 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-20 01:27:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:27:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-20 01:27:51 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.479 seconds (process running for 2.644)
+2025-10-20 01:27:51 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-20 01:27:51 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-20 01:27:51 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-20 01:31:51 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions?userId=saad
+2025-10-20 01:31:51 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions?userId=saad
+2025-10-20 01:31:51 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d9418f36-c4b2-4e00-9548-2cea63381ff6] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:31:51 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: d9418f36-c4b2-4e00-9548-2cea63381ff6] Response: 200 | Time Taken: 78 ms
+2025-10-20 01:32:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions
+2025-10-20 01:32:04 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions
+2025-10-20 01:32:04 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c242a5d8-8d42-4578-8908-e972e2548b88] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:32:05 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: c242a5d8-8d42-4578-8908-e972e2548b88] Response: 200 | Time Taken: 34 ms
+2025-10-20 01:40:26 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-20 01:40:26 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-20 01:40:26 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:40:26 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-20 01:40:26 [RMI TCP Connection(24)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:40:26 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:40:26 [RMI TCP Connection(24)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-20 01:40:26 [RMI TCP Connection(24)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-20 01:40:27 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-20 01:40:27 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 18029 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-20 01:40:27 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-20 01:40:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-20 01:40:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2025-10-20 01:40:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-20 01:40:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:40:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-20 01:40:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-20 01:40:27 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-20 01:40:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 700 ms
+2025-10-20 01:40:28 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-20 01:40:28 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-20 01:40:28 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-20 01:40:28 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-20 01:40:28 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-20 01:40:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-20 01:40:28 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7bfc36d5
+2025-10-20 01:40:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-20 01:40:28 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-20 01:40:28 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-20 01:40:28 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-20 01:40:28 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:40:28 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-20 01:40:28 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4239203a-3351-4c4e-890b-9a18ded65771
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-20 01:40:28 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-20 01:40:29 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-20 01:40:29 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-20 01:40:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:40:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-20 01:40:29 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.545 seconds (process running for 2.729)
+2025-10-20 01:40:29 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-20 01:40:29 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-20 01:40:29 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-20 01:40:33 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions
+2025-10-20 01:40:33 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions
+2025-10-20 01:40:33 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a8a32998-83d7-46e6-b7ae-4ad48d84bbd7] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:40:33 [http-nio-8081-exec-2] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: a8a32998-83d7-46e6-b7ae-4ad48d84bbd7] Response: 200 | Time Taken: 78 ms
+2025-10-20 01:41:22 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions?userId=saad
+2025-10-20 01:41:22 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions?userId=saad
+2025-10-20 01:41:22 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 11de136a-7970-4ad2-bad6-ff2b2ce096b4] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:41:22 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 11de136a-7970-4ad2-bad6-ff2b2ce096b4] Response: 200 | Time Taken: 18 ms
+2025-10-20 01:41:44 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions?userId=saad
+2025-10-20 01:41:44 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions?userId=saad
+2025-10-20 01:41:44 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ef09ac50-b36e-4c9d-b822-3f2514760747] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:41:44 [http-nio-8081-exec-4] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: ef09ac50-b36e-4c9d-b822-3f2514760747] Response: 200 | Time Taken: 6 ms
+2025-10-20 01:52:10 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-20 01:52:10 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-20 01:52:10 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:52:10 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-20 01:52:10 [RMI TCP Connection(23)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:52:10 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:52:10 [RMI TCP Connection(23)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-20 01:52:10 [RMI TCP Connection(23)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-20 01:52:10 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-20 01:52:10 [main] INFO  c.n.r.RagChatStorageApplication - Starting RagChatStorageApplication using Java 17.0.14 with PID 25254 (/Users/meghan21/Downloads/rag-chat-storage/target/classes started by meghan21 in /Users/meghan21/Downloads/rag-chat-storage)
+2025-10-20 01:52:10 [main] INFO  c.n.r.RagChatStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-20 01:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-20 01:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-10-20 01:52:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-20 01:52:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:52:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-20 01:52:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-20 01:52:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-20 01:52:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 729 ms
+2025-10-20 01:52:11 [main] DEBUG c.n.r.config.ApiKeyAuthFilter - Filter 'apiKeyAuthFilter' configured for use
+2025-10-20 01:52:11 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-20 01:52:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-20 01:52:11 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-20 01:52:11 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-20 01:52:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-20 01:52:12 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a29a1e6
+2025-10-20 01:52:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-20 01:52:12 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-20 01:52:12 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-20 01:52:12 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-20 01:52:12 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-20 01:52:12 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-20 01:52:12 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e6a33c8b-3131-4794-ba71-0beb54ffcbec
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-20 01:52:12 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-20 01:52:13 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2025-10-20 01:52:13 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, ApiKeyAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-20 01:52:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-20 01:52:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-20 01:52:13 [main] INFO  c.n.r.RagChatStorageApplication - Started RagChatStorageApplication in 2.648 seconds (process running for 2.839)
+2025-10-20 01:52:13 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-20 01:52:13 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-20 01:52:13 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-20 01:53:20 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions?userId=saad
+2025-10-20 01:53:20 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions?userId=saad
+2025-10-20 01:53:20 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: fda65824-ba3f-4673-b6c4-fc07df6ed5d3] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:53:20 [http-nio-8081-exec-1] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: fda65824-ba3f-4673-b6c4-fc07df6ed5d3] Response: 200 | Time Taken: 67 ms
+2025-10-20 01:53:31 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions?userId=saad
+2025-10-20 01:53:31 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions?userId=saad
+2025-10-20 01:53:31 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 3b63d034-92cd-40f2-8ebf-a9d0e1b8b3e6] Incoming Request: GET /api/v1/sessions
+2025-10-20 01:53:31 [http-nio-8081-exec-3] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 3b63d034-92cd-40f2-8ebf-a9d0e1b8b3e6] Response: 200 | Time Taken: 6 ms
+2025-10-20 02:02:50 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions
+2025-10-20 02:02:50 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions
+2025-10-20 02:02:50 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 478ffdc8-155f-420d-aa03-ba6c3c449eed] Incoming Request: GET /api/v1/sessions
+2025-10-20 02:02:50 [http-nio-8081-exec-6] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 478ffdc8-155f-420d-aa03-ba6c3c449eed] Response: 200 | Time Taken: 36 ms
+2025-10-20 02:03:12 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/sessions?userId=user123
+2025-10-20 02:03:12 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/sessions?userId=user123
+2025-10-20 02:03:12 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 9fc50da3-f481-4531-b927-26a96b605c03] Incoming Request: GET /api/v1/sessions
+2025-10-20 02:03:12 [http-nio-8081-exec-7] INFO  c.n.r.c.RequestResponseLoggingFilter - [TRACE_ID: 9fc50da3-f481-4531-b927-26a96b605c03] Response: 200 | Time Taken: 9 ms
+2025-10-20 02:53:23 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m41s97ms).
+2025-10-20 04:20:34 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27m11s39ms).
+2025-10-20 05:38:28 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m54s255ms).
+2025-10-20 06:56:22 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m54s58ms).
+2025-10-20 08:08:55 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m33s256ms).
+2025-10-20 09:42:20 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h33m24s104ms).
+2025-10-20 10:59:55 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m35s493ms).
+2025-10-20 12:12:53 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m58s408ms).
+2025-10-20 13:13:58 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m4s950ms).
+2025-10-20 14:31:36 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m37s666ms).
+2025-10-20 16:05:43 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h34m7s353ms).
+2025-10-20 17:17:51 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m7s562ms).
+2025-10-20 18:36:51 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m59s818ms).
+2025-10-20 19:53:42 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m50s886ms).
+2025-10-20 21:10:17 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m34s880ms).
+2025-10-20 22:17:38 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m21s633ms).
+2025-10-20 23:23:49 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m11s61ms).

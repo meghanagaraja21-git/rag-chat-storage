@@ -14,12 +14,11 @@ public class CorsConfig {
             
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/api/**") // Apply to all your APIs
-                        .allowedOrigins("http://localhost:3000", "https://your-frontend-domain.com") // Frontend URLs
+                registry.addMapping("/**")
+                        .allowedOrigins("http://localhost:3000")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
-                        .allowCredentials(true)
-                        .maxAge(3600); 
+                        .exposedHeaders("X-API-Key");
             }
         };
     }

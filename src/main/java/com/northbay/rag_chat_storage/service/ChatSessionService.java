@@ -10,6 +10,7 @@ import com.northbay.rag_chat_storage.exceptions.NotFoundException;
 import com.northbay.rag_chat_storage.models.ChatSession;
 import com.northbay.rag_chat_storage.repository.ChatSessionRepository;
 
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -22,18 +23,17 @@ public class ChatSessionService {
 	
 
     public ChatSession createSession(String userId, String name) {
-    	ChatSession session = ChatSession.builder()
-    		    .userId("userId123")
-    		    .name("My Chat")
-    		    .favorite(true)
-    		    .build();
+    	ChatSession session = new ChatSession(userId,name);
         return sessionRepository.save(session);
     }
     
 
     public ChatSession getSession(UUID id) {
-        return sessionRepository.findById(id)
-               .orElseThrow(() -> new NotFoundException("Session not found"));
+       ChatSession session = sessionRepository.findById(id)
+                .orElseThrow(() -> new NotFoundException("Session not found"));
+        session.getMessages().size(); 
+        return session;
+        
     }
 
   
@@ -50,6 +50,7 @@ public class ChatSessionService {
         return sessionRepository.save(session);
     }
 
+    @Transactional
     public void deleteSession(UUID id) {
     	if (!sessionRepository.existsById(id)) {
             throw new NotFoundException("Session not found: " + id);
@@ -58,8 +59,11 @@ public class ChatSessionService {
         sessionRepository.delete(session);
     }
 
-	public List<ChatSession> getAllSessions(String userId) {
-		
-		return sessionRepository.findAll();
-	}
+    public List<ChatSession> getAllSessions(String userId) {
+        if (userId != null && !userId.isEmpty()) {
+            return sessionRepository.findByUserId(userId);
+        } else {
+            return sessionRepository.findAll();
+        }
+    }
 }
