@@ -21,6 +21,7 @@ public class ChatSessionService {
     private  ChatSessionRepository sessionRepository;
 	
 	
+	
 
     public ChatSession createSession(String userId, String name) {
     	ChatSession session = new ChatSession(userId,name);

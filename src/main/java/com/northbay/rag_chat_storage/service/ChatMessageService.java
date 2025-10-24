@@ -9,20 +9,12 @@ import com.northbay.rag_chat_storage.models.ChatMessage;
 import com.northbay.rag_chat_storage.models.ChatSession;
 import com.northbay.rag_chat_storage.repository.ChatMessageRepository;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
-import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
 public class ChatMessageService {
 
     @Autowired
     private ChatMessageRepository messageRepository;
-
-    
-    @PersistenceContext
-    private EntityManager em;
 
     public ChatMessage addMessage(ChatSession session, String sender, String content, String context) {
     	ChatMessage message = new ChatMessage(session, sender, content, context);

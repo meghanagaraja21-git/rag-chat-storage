@@ -23,6 +23,15 @@ services:
     depends_on:
       - postgres
 
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama   # stores models persistently
+    # Optional: you can pre-pull models here if supported
+
   app:
     build: .
     image: rag-chat-storage:latest
@@ -31,10 +40,14 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/rag_chat_storage
       SPRING_DATASOURCE_USERNAME: rag_user
       SPRING_DATASOURCE_PASSWORD: Mena2107@!
+      SPRING_AI_OLLAMA_BASE_URL: http://ollama:11434
+      SPRING_AI_OLLAMA_CHAT_MODEL: gemma3:4b
     ports:
-      - "8082:8081"
+      - "8083:8084" 
     depends_on:
       - postgres
+      - ollama
 
-volumes:
+volumes: 
   pgdata:
+  ollama-data:

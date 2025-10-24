@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -24,7 +25,6 @@ import com.northbay.rag_chat_storage.models.ChatSession;
 import com.northbay.rag_chat_storage.service.ChatSessionService;
 
 import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
 
 
 /**
@@ -37,7 +37,6 @@ import lombok.RequiredArgsConstructor;
  */
 @RestController
 @RequestMapping("/api/v1/sessions")
-@RequiredArgsConstructor
 public class ChatSessionController {
 
     @Autowired
@@ -63,14 +62,14 @@ public class ChatSessionController {
     }
 
     @RateLimited(name = "chatSessionLimiter")
-    @PutMapping("/{id}/rename")
+    @PatchMapping("/{id}/rename")
     public ResponseEntity<ChatSession> renameSession(@PathVariable UUID id,
                                                      @Valid @RequestBody RenameSessionRequest request) {
         return ResponseEntity.ok(sessionService.renameSession(id, request.getName()));
     }
 
     @RateLimited(name = "chatSessionLimiter")
-    @PutMapping("/{id}/favorite")
+    @PatchMapping("/{id}/favorite")
     public ResponseEntity<ChatSession> markFavorite(@PathVariable UUID id,
                                                     @Valid @RequestBody FavoriteSessionRequest request) {
         return ResponseEntity.ok(sessionService.markFavorite(id, request.isFavorite()));

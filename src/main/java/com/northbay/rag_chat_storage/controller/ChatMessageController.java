@@ -1,5 +1,7 @@
 package com.northbay.rag_chat_storage.controller;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +9,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,15 +22,14 @@ import com.northbay.rag_chat_storage.dto.ChatMessageRequest;
 import com.northbay.rag_chat_storage.models.ChatMessage;
 import com.northbay.rag_chat_storage.models.ChatSession;
 import com.northbay.rag_chat_storage.service.ChatMessageService;
+import com.northbay.rag_chat_storage.service.ChatService;
 import com.northbay.rag_chat_storage.service.ChatSessionService;
 
-import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
+//import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/v1/sessions/{sessionId}/messages")
-@RequiredArgsConstructor
 
 public class ChatMessageController {
 
@@ -38,6 +38,12 @@ public class ChatMessageController {
 
     @Autowired
     private  ChatSessionService sessionService;
+    
+    @Autowired
+    private ChatService chatService; 
+    
+    
+    
 
     private static final String LIMITER_NAME = "chatMessageLimiter";
 
@@ -46,20 +52,35 @@ public class ChatMessageController {
      */
     @RateLimited(name = LIMITER_NAME)
     @PostMapping
-    public ResponseEntity<ChatMessage> addMessage(
+    public ResponseEntity<List<ChatMessage>> addMessage(
             @PathVariable UUID sessionId,
             @Valid @RequestBody ChatMessageRequest request) {
 
+    	
+    	
         ChatSession session = sessionService.getSession(sessionId);
         ChatMessage savedMessage = messageService.addMessage(
                 session,
-                request.getSender(),
+                "user",
                 request.getContent(),
                 request.getContext());
+        
+    
+        
+        String aiReply = chatService.generateResponse(
+                request.getContent(),  // user input
+                request.getContext()   // context for AI instructions
+        );
 
-        return ResponseEntity.status(HttpStatus.CREATED).body(savedMessage);
+        // 4️⃣ Save AI (assistant) message
+        ChatMessage aiMessage = messageService.addMessage(
+                session,
+                "assistant",
+                aiReply,
+                null
+        );
+        return ResponseEntity.status(HttpStatus.CREATED).body(Arrays.asList(savedMessage, aiMessage));
     }
-
     /**
      * Fetch paginated chat messages for a session.
      */
