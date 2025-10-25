@@ -24,7 +24,10 @@ public class ChatSessionService {
 	
 
     public ChatSession createSession(String userId, String name) {
-    	ChatSession session = new ChatSession(userId,name);
+    	ChatSession session = ChatSession.builder()
+    	        .userId(userId)
+    	        .name(name)
+    	        .build();
         return sessionRepository.save(session);
     }
     

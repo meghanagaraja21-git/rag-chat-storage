@@ -32,7 +32,9 @@ public class ApiKeyAuthFilter extends OncePerRequestFilter {
         if (!StringUtils.hasText(apiKeysProperty)) {
             throw new ServletException("No API keys defined in 'api.key'");
         }
-        validApiKeys = Arrays.asList(apiKeysProperty.split(","));
+        validApiKeys = Arrays.stream(apiKeysProperty.split(","))
+                .map(String::trim)
+                .toList();
     }
 
     @Override

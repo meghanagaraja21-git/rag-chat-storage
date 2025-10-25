@@ -7,41 +7,47 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
 import com.northbay.rag_chat_storage.annotations.RateLimited;
 
 import io.github.resilience4j.ratelimiter.RateLimiter;
 import io.github.resilience4j.ratelimiter.RateLimiterRegistry;
+import jakarta.servlet.http.HttpServletRequest;
 
 
 @Aspect
-@Component("customRateLimiterAspect") 
+@Component("customRateLimiterAspect")
 public class RateLimiterAspect {
-	
-@Autowired
-    private  RateLimiterRegistry rateLimiterRegistry;
 
-    public RateLimiterAspect(RateLimiterRegistry rateLimiterRegistry) {
-        this.rateLimiterRegistry = rateLimiterRegistry;
-    }
+    @Autowired
+    private RateLimiterRegistry rateLimiterRegistry;
 
-    @Around("@annotation(rateLimited)")
+    @Around("@annotation(rateLimited) || @within(rateLimited)")
     public Object aroundRateLimitedMethod(ProceedingJoinPoint pjp, RateLimited rateLimited) throws Throwable {
-        String limiterName = rateLimited.name();
-        RateLimiter limiter = rateLimiterRegistry.rateLimiter(limiterName);
+        
+        // Get the API key from request
+        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes())
+                .getRequest();
+        String apiKey = request.getHeader("X-API-KEY");
+
+        if (apiKey == null || apiKey.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN)
+                    .body("Missing API key");
+        }
+
+        // Use API key as limiter name
+        RateLimiter limiter = rateLimiterRegistry.rateLimiter(apiKey);
 
         if (!limiter.acquirePermission()) {
-            // For controller methods, return HTTP 429 directly
             if (pjp.getSignature().getDeclaringType().getName().contains("Controller")) {
                 return ResponseEntity.status(HttpStatus.TOO_MANY_REQUESTS)
-                        .body("Rate limit exceeded. Try again later.");
+                        .body("Rate limit exceeded for API key: " + apiKey);
             }
-
-            // For service methods, throw a custom exception
-            throw new RuntimeException("Rate limit exceeded for limiter: " + limiterName);
+            throw new RuntimeException("Rate limit exceeded for API key: " + apiKey);
         }
 
         return pjp.proceed();
     }
-
 }

@@ -27,7 +27,7 @@ import com.northbay.rag_chat_storage.service.ChatSessionService;
 
 import jakarta.validation.Valid;
 //import lombok.RequiredArgsConstructor;
-
+@RateLimited(name = "placeholder")
 @RestController
 @RequestMapping("/api/v1/sessions/{sessionId}/messages")
 
@@ -41,16 +41,11 @@ public class ChatMessageController {
     
     @Autowired
     private ChatService chatService; 
-    
-    
-    
-
-    private static final String LIMITER_NAME = "chatMessageLimiter";
 
     /**
      * Add a new message to a chat session.
      */
-    @RateLimited(name = LIMITER_NAME)
+    
     @PostMapping
     public ResponseEntity<List<ChatMessage>> addMessage(
             @PathVariable UUID sessionId,
@@ -84,7 +79,7 @@ public class ChatMessageController {
     /**
      * Fetch paginated chat messages for a session.
      */
-    @RateLimited(name = LIMITER_NAME)
+    
     @GetMapping
     public ResponseEntity<Page<ChatMessage>> getMessages(
             @PathVariable UUID sessionId,

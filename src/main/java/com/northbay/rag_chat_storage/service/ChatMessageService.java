@@ -17,7 +17,13 @@ public class ChatMessageService {
     private ChatMessageRepository messageRepository;
 
     public ChatMessage addMessage(ChatSession session, String sender, String content, String context) {
-    	ChatMessage message = new ChatMessage(session, sender, content, context);
+    	ChatMessage message = ChatMessage.builder()
+    	        .session(session)
+    	        .sender(sender)
+    	        .content(content)
+    	        .context(context)
+    	        .build();
+    	
 
         return messageRepository.save(message);
     }

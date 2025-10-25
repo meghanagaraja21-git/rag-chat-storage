@@ -40,14 +40,7 @@ public class ChatService {
         messages.add(new Message(Message.Role.USER, userMessage, null, null));
 
         ChatRequest request = new ChatRequest(
-                "gemma3:4b", // your model
-                messages,
-                false,       // stream = false
-                null,
-                null,
-                null,
-                null
-        );
+                "gemma3:4b",messages,false,null,null,null,null);
 
         ChatResponse response = ollamaApi.chat(request);
         Message assistantMessage = response.message();
